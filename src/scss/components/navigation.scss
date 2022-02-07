@@ -1,0 +1,22 @@
+.navigation {
+	width: 100%;
+
+	.navigation-spacer {
+		height: toRem(30);
+		border-bottom: 5px solid $primary-blue;
+	}
+
+	.content {
+		padding: toRem(20) 0px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		.navigation-logo {
+			font-size: toRem(60);
+			line-height: toRem(60);
+			font-weight: bold;
+			text-transform: lowercase;
+		}
+	}
+}
