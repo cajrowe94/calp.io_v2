@@ -1,0 +1,25 @@
+.layout {
+	display: flex;
+
+	.layout-center-slot {
+		flex-grow: 1;
+		padding: 0px toRem(10);
+	}
+
+	.layout-left-slot {
+		flex-basis: toRem(160);
+		padding: 0px toRem(10);
+	}
+
+	.layout-right-slot {
+		flex-basis: toRem(160);
+		padding: 0px toRem(10);
+	}
+
+	@media #{$desktop-down} {
+		.layout-left-slot,
+		.layout-right-slot {
+			display: none;
+		}
+	}
+}

@@ -1,5 +1,5 @@
-/*
-	Colors
+/**
+ * Colors
  */
 
 $primary-blue: #1954F5;
@@ -9,16 +9,13 @@ $black: #000;
 
 /**
  * Breakpoints
- * https://gist.github.com/nurbek-ab/efc407ec15f77b56c8cb9cff6787802a
  */
 
-$for-phone: "screen and (max-width: 44.9375rem)"; // < 720
-$for-tablet-only: "screen and (min-width: 45rem) and (max-width: 74.9375rem)"; // > 720 < 1199
-$for-tablet-portrait-only: "screen and (min-width: 45rem) and (max-width: 56.1875rem)"; // > 720 < 900
-$for-tablet-portrait-up: "screen and (min-width: 45rem)"; // > 720
-$for-tablet-landscape-up: "screen and (min-width: 56.25rem)"; // > 900
-$for-desktop-up: "screen and (min-width: 75rem)"; // > 1200
-$for-big-desktop-up: "screen and (min-width: 112.5rem)"; // > 1800
+$phone-xs-down: "screen and (max-width: 576px)"; // < 576
+$phone-down: "screen and (max-width: 768px)"; // < 768
+$tablet-down: "screen and (max-width: 992px)"; // < 992
+$desktop-down: "screen and (max-width: 1200px)"; // < 1200
+$desktop-xl-down: "screen and (max-width: 1400px)"; // < 1400
 
 
 /**
