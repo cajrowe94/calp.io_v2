@@ -17,6 +17,7 @@ h1 {
 a {
 	text-decoration: none;
 	color: $primary-blue;
+	font-weight: bold;
 
 	&:visited {
 		color: $primary-blue;
@@ -25,6 +26,10 @@ a {
 	&:hover {
 		text-decoration: underline;
 	}
+}
+
+ul {
+	padding: 0;
 }
 
 /**

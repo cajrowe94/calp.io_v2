@@ -7,13 +7,15 @@
 	}
 
 	.layout-left-slot {
-		flex-basis: toRem(160);
-		padding: 0px toRem(10);
+		flex-basis: toRem(200);
+		padding: 0px toRem(10) 0px 0px;
+		min-width: 0;
 	}
 
 	.layout-right-slot {
-		flex-basis: toRem(160);
-		padding: 0px toRem(10);
+		flex-basis: toRem(200);
+		padding: 0px 0px 0px toRem(10);
+		min-width: 0;
 	}
 
 	@media #{$desktop-down} {

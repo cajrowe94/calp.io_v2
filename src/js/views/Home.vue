@@ -7,7 +7,7 @@
     <Layout>
       <!-- Left slot -->
       <template v-slot:layout_left>
-        <h1>Left slot</h1>
+        <AnchorLinks :links="anchor_links" />
       </template>
 
       <!-- Center slot -->
@@ -26,12 +26,36 @@
 <script>
   import Navigation from '../components/Navigation.vue';
   import Layout from '../components/Layout.vue';
+  import AnchorLinks from '../components/AnchorLinks.vue';
 
   export default {
     name: 'Home',
     components: {
       Navigation,
       Layout,
+      AnchorLinks
+    },
+    data() {
+      return {
+        anchor_links: [
+          {
+            name: 'About',
+            href: '#about'
+          },
+          {
+            name: 'Experience',
+            href: '#experience'
+          },
+          {
+            name: 'Work',
+            href: '#work'
+          },
+          {
+            name: 'Contact',
+            href: '#contact'
+          },
+        ]
+      }
     }
   }
 </script>

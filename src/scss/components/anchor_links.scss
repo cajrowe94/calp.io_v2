@@ -1,0 +1,31 @@
+.anchor-links-container {
+	.anchor-links-ul {
+		list-style: none;
+		line-height: toRem(24);
+
+		.anchor-link {
+			overflow: hidden;
+
+			a {
+				color: $dark-gray;
+				font-size: toRem(24);
+				position: relative;
+				left: 0;
+				transition: left .2s ease-out;
+
+				&:hover {
+					text-decoration: none;
+					color: $primary-blue;
+					left: 35px;
+				}
+
+				&:before {
+					content: url('../assets/icons/anchor_link_arrow.svg');
+					position: absolute;
+					left: -30px;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
