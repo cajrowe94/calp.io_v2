@@ -1,5 +1,5 @@
 <template>
-  <div class="view">
+  <div class="view home">
     <!-- Navigation -->
     <Navigation />
 
@@ -12,7 +12,10 @@
 
       <!-- Center slot -->
       <template v-slot:layout_center>
-        <h1>Center slot</h1>
+        <div id="about" style="height: 800px; background: red; margin: 20px 0px;">about</div>
+        <div id="experience" style="height: 800px; background: red; margin: 20px 0px;">experience</div>
+        <div id="work" style="height: 800px; background: red; margin: 20px 0px;">work</div>
+        <div  id="contact" style="height: 800px; background: red; margin: 20px 0px;">contact</div>
       </template>
 
       <!-- Left slot -->

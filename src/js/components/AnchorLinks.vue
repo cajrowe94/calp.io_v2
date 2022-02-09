@@ -6,7 +6,10 @@
 				:key="link.name"
 				class="anchor-link"
 			>
-				<a :href="link.href">
+				<a
+					:href="link.href"
+					@click="scroll_to"
+				>
 					{{ link.name }}
 				</a>
 			</li>
@@ -19,6 +22,23 @@
 		name: 'AnchorLinks',
 		props: {
 			links: Array,
+		},
+		methods: {
+			scroll_to(event) { // custom scrolling action
+				event.preventDefault();
+
+				// grab dat hash
+				let hash = (event.target && event.target.hash);
+				let element = (hash && document.getElementById(hash.substring(1)));
+
+				if (element) {
+					element.scrollIntoView({ // badass vanilla js function
+						behavior: 'smooth',
+						inline: 'center',
+						block: 'center'
+					});
+				}
+			}
 		}
 	}
 </script>
