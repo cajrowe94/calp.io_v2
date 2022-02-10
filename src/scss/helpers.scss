@@ -1,0 +1,34 @@
+/**
+ * Coloring
+ */
+
+.dark-gray {
+	color: $dark-gray !important;
+}
+
+/**
+ * Positioning
+ */
+
+.center-content {
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: center !important;
+}
+
+
+/**
+ * Margin and padding
+ */
+
+.m-0 {
+	margin: 0 !important;
+}
+
+/**
+ * Width and height
+ */
+
+.full-screen-height {
+	height: 100vh !important;
+}

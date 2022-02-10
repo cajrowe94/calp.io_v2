@@ -3,7 +3,10 @@
 	flex: 1;
 
 	.layout-center-slot {
-		flex-grow: 1;
+		flex-grow: 1;	
+		display: flex;
+		flex-direction: column;
+		max-width: toRem(760);
 		padding: 0px toRem(10);
 	}
 

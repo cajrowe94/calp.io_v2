@@ -1,5 +1,5 @@
 <template>
-	<nav class="navigation">
+	<nav id="nav" class="navigation">
 		<div class="navigation-spacer"></div>
 		<div class="content">
 			<a

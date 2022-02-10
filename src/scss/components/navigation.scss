@@ -1,9 +1,12 @@
 .navigation {
 	width: 100%;
+	position: fixed;
+	max-width: toRem(1200);
 
 	.navigation-spacer {
-		height: toRem(30);
-		border-bottom: 5px solid $primary-blue;
+		height: toRem(20);
+		background: $white;
+		border-bottom: toRem(5) solid $primary-blue;
 	}
 
 	.content {

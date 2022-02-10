@@ -1,5 +1,5 @@
 <template>
-	<div class="anchor-links-container">
+	<div class="full-screen-height center-content anchor-links-container">
 		<ul class="anchor-links-ul">
 			<li
 				v-for="link in links"
