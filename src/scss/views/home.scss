@@ -1,4 +1,9 @@
 .home {
+	.layout-home {
+		position: relative;
+		top: -$nav-height;
+	}
+
 	.anchor-links-container {
 		position: sticky;
 		top: 1px;

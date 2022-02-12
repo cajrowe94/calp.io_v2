@@ -1,7 +1,6 @@
 .navigation {
 	width: 100%;
-	position: fixed;
-	max-width: toRem(1200);
+	height: $nav-height;
 
 	.navigation-spacer {
 		height: toRem(20);

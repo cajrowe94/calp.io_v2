@@ -22,6 +22,19 @@ h1 {
 	}
 }
 
+h2 {
+	font-size: toRem(28);
+	line-height: toRem(28);
+	color: $primary-blue;
+	font-weight: bold;
+	margin: toRem(20) 0px;
+
+	@media #{$tablet-down} {
+		font-size: toRem(24);
+		line-height: toRem(24);
+	}
+}
+
 p {
 	margin: 0 0 toRem(10) 0;
 }

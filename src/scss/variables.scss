@@ -30,3 +30,9 @@ $desktop-xl-down: "screen and (max-width: 1400px)"; // < 1400
     $remValue: calc($value / 16) + rem; 
     @return $remValue;
 }
+
+/**
+ * Misc
+ */
+
+$nav-height: toRem(120);

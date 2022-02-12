@@ -4,7 +4,7 @@
     <Navigation />
 
     <!-- Main Layout -->
-    <Layout>
+    <Layout class="layout-home">
       <!-- Left slot -->
       <template v-slot:layout_left>
         <AnchorLinks :links="anchor_links" />
@@ -24,10 +24,31 @@
         </div>
 
         <!-- About -->
-        <div id="about" style="height: 800px; background: red; margin: 20px 0px;">about</div>
-        <div id="experience" style="height: 800px; background: blue; margin: 20px 0px;">experience</div>
-        <div id="work" style="height: 800px; background: green; margin: 20px 0px;">work</div>
-        <div  id="contact" style="height: 800px; background: indigo; margin: 20px 0px;">contact</div>
+        <div id="about">
+          <Header>About</Header>
+        </div>
+
+        <!-- Experience -->
+        <div id="experience">
+          <Header position="right">Experience</Header>
+        </div>
+
+        <!-- Work -->
+        <div id="work">
+          <Header>Work</Header>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact">
+          <Header position="center">Contact</Header>
+          <div class="text-center">
+            <p>
+              Lorem ipsum dolor sit amet eros erat congue posuere eget ultricies.<br>
+              Luctus tempus sollicitudin  erat tellus morbi elementum vel.
+            </p>
+            <a href="mailto:caleb@calp.io">caleb@calp.io</a>
+          </div>
+        </div>
       </template>
     </Layout>
   </div>
@@ -37,13 +58,15 @@
   import Navigation from '../components/Navigation.vue';
   import Layout from '../components/Layout.vue';
   import AnchorLinks from '../components/AnchorLinks.vue';
+  import Header from '../components/Header.vue';
 
   export default {
     name: 'Home',
     components: {
       Navigation,
       Layout,
-      AnchorLinks
+      AnchorLinks,
+      Header
     },
     data() {
       return {
