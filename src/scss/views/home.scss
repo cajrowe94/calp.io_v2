@@ -8,4 +8,24 @@
 		position: sticky;
 		top: 1px;
 	}
+
+	section {
+		margin: toRem(125) 0;
+	}
+
+	/**
+	 * About section
+	 */
+
+	#about {
+		.about-image {
+			float: right;
+			padding: 0px toRem(15) toRem(15) toRem(15);
+
+			img {
+				border-radius: 5px;
+				filter: drop-shadow(10px 10px 0px rgba(148, 174, 244, 0.25));
+			}
+		}
+	}
 }

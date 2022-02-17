@@ -7,8 +7,12 @@
 }
 
 /**
- * Positioning
+ * Positioning and layout
  */
+
+.d-flex {
+  display: flex !important;
+}
 
 .center-content {
 	display: flex !important;
@@ -27,6 +31,10 @@
 
 .m-0 {
 	margin: 0 !important;
+}
+
+.p-0 {
+  padding: 0 !important;
 }
 
 /**

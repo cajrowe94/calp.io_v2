@@ -1,6 +1,6 @@
 <template>
 	<div class="full-screen-height center-content anchor-links-container">
-		<ul class="anchor-links-ul">
+		<ul class="anchor-links-ul p-0">
 			<li
 				v-for="link in links"
 				:key="link.name"

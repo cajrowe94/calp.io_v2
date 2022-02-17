@@ -54,7 +54,7 @@ a {
 }
 
 ul {
-	padding: 0;
+	padding: 0 0 0 toRem(15);
 }
 
 /**
@@ -67,5 +67,5 @@ ul {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-	padding: 0px toRem(10);
+	padding: 0px toRem(20);
 }

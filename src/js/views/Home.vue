@@ -24,22 +24,51 @@
         </div>
 
         <!-- About -->
-        <div id="about">
+        <section id="about">
           <Header>About</Header>
-        </div>
+          <div>
+              <div class="about-text">
+                <div class="about-image">
+                <img
+                  src="../../assets/images/profile_photo.jpeg"
+                  alt="Caleb Rowe"
+                  width="200"
+                  height="200"
+                >
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet fringilla mauris dapibus ultrices auctor gravida nullam 
+                egestas suspendisse. Magna ac arcu auctor gravida nullam egestas suspendisse. Magna ac arcu auctor
+                Lorem ipsum dolor sit amet fringilla mauris dapibus ultrices auctor gravida nullam egestas
+                suspendisse.
+                <br>
+                <br>
+                Magna ac arcu auctor gravida nullam egestas suspendisse. Magna ac arcu auctor
+                <br>
+                <br>
+                Lorem ipsum dolem
+              </p>
+              <ul>
+                <li>Javascript</li>
+                <li>PHP</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
         <!-- Experience -->
-        <div id="experience">
+        <section id="experience">
           <Header position="right">Experience</Header>
-        </div>
+          <ExperienceAccordion />
+        </section>
 
         <!-- Work -->
-        <div id="work">
+        <section id="work">
           <Header>Work</Header>
-        </div>
+        </section>
 
         <!-- Contact -->
-        <div id="contact">
+        <section id="contact">
           <Header position="center">Contact</Header>
           <div class="text-center">
             <p>
@@ -48,7 +77,7 @@
             </p>
             <a href="mailto:caleb@calp.io">caleb@calp.io</a>
           </div>
-        </div>
+        </section>
       </template>
     </Layout>
   </div>
@@ -59,6 +88,7 @@
   import Layout from '../components/Layout.vue';
   import AnchorLinks from '../components/AnchorLinks.vue';
   import Header from '../components/Header.vue';
+  import ExperienceAccordion from '../components/ExperienceAccordion.vue';
 
   export default {
     name: 'Home',
@@ -66,7 +96,8 @@
       Navigation,
       Layout,
       AnchorLinks,
-      Header
+      Header,
+      ExperienceAccordion
     },
     data() {
       return {
