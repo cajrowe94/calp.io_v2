@@ -1,0 +1,128 @@
+.accordion-container {
+	.accordion-items {
+		/**
+		 * Inactive item
+		 */
+
+		.accordion-item {
+			background-color: transparent;
+			transition: background-size .5s;
+			padding: toRem(10) toRem(20);
+			border-radius: toRem(5);
+			cursor: pointer;
+
+			.accordion-item-header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.title {
+					margin: 0;
+					font-weight: bold;
+					font-size: toRem(18);
+
+					.job-title {
+						color: $dark-gray;
+					}
+
+					.at {
+						color: $dark-gray;
+						margin: 0 toRem(5);
+					}
+
+					.company-name {
+						color: $dark-gray;
+					}
+				}
+
+				.dates {
+					margin: 0;
+					color: $dark-gray;
+					font-size: toRem(12);
+					line-height: toRem(15);
+				}
+
+				.accordion-arrow {
+					img {
+						filter: invert(54%) sepia(26%) saturate(325%) hue-rotate(168deg) brightness(89%) contrast(91%);
+						transform: rotate(0deg);
+						transition: transform .1s;
+					}
+				}
+			}
+
+			.accordion-item-body {
+				max-height: 0;
+				overflow: hidden;
+				// transition: max-height .1s ease-out;
+				height: auto;
+			}
+		}
+
+		/**
+		 * Hover state, inactive item
+		 */
+
+		.accordion-item:hover:not(.active) {
+			.accordion-item-header {
+				.title {
+					.job-title,
+					.at {
+						color: $primary-blue;
+					}
+				}
+
+				.company-name {
+					color: $primary-blue;
+				}
+
+				.accordion-arrow {
+					img {
+						filter: invert(40%) sepia(91%) saturate(6709%) hue-rotate(224deg) brightness(96%) contrast(99%);
+					}
+				}
+			}
+		}
+
+		/**
+		 * Active item
+		 */
+
+		.accordion-item.active {
+			background-color: $primary-blue;
+			box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+			cursor: default;
+
+			.accordion-item-header {
+				.title {
+					.job-title {
+						color: $white;
+					}
+
+					.at {
+						color: $light-blue;
+					}
+				}
+
+				.company-name {
+					color: $light-blue;
+				}
+
+				.dates {
+					color: $light-blue;
+				}
+
+				.accordion-arrow {
+					img {
+						filter: brightness(0) invert(1);
+						transform: rotate(180deg);
+					}
+				}
+			}
+
+			.accordion-item-body {
+				max-height: toRem(300);
+			}
+		}
+	}
+}
