@@ -39,7 +39,7 @@ p {
 	margin: 0 0 toRem(10) 0;
 }
 
-a {
+a:not(.work-item) {
 	text-decoration: none;
 	color: $primary-blue;
 	font-weight: bold;
@@ -55,6 +55,25 @@ a {
 
 ul {
 	padding: 0 0 0 toRem(15);
+	list-style-type: circle;
+
+	li {
+		line-height: toRem(32);
+	}
+}
+
+/**
+ * Custom text selection colors
+ */
+
+::-moz-selection {
+	color: $white;
+	background: $primary-blue;
+}
+
+::selection {
+	color: $white;
+	background: $primary-blue;
 }
 
 /**

@@ -44,9 +44,9 @@
 
 				.accordion-arrow {
 					img {
-						filter: invert(54%) sepia(26%) saturate(325%) hue-rotate(168deg) brightness(89%) contrast(91%);
+						filter: $dark-gray-filter;
 						transform: rotate(0deg);
-						transition: transform .1s;
+						transition: transform .3s ease-out;
 					}
 				}
 			}
@@ -54,7 +54,7 @@
 			.accordion-item-body {
 				max-height: 0;
 				overflow: hidden;
-				// transition: max-height .1s ease-out;
+				// transition: max-height .5s ease-out;
 				height: auto;
 			}
 		}
@@ -78,7 +78,7 @@
 
 				.accordion-arrow {
 					img {
-						filter: invert(40%) sepia(91%) saturate(6709%) hue-rotate(224deg) brightness(96%) contrast(99%);
+						filter: $primary-blue-filter;
 					}
 				}
 			}
@@ -90,7 +90,7 @@
 
 		.accordion-item.active {
 			background-color: $primary-blue;
-			box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+			// box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
 			cursor: default;
 
 			.accordion-item-header {
@@ -114,7 +114,7 @@
 
 				.accordion-arrow {
 					img {
-						filter: brightness(0) invert(1);
+						filter: $white-filter;
 						transform: rotate(180deg);
 					}
 				}

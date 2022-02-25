@@ -48,7 +48,7 @@
                 <br>
                 Lorem ipsum dolem
               </p>
-              <ul>
+              <ul class="gray-marker">
                 <li>Javascript</li>
                 <li>PHP</li>
               </ul>
@@ -65,6 +65,106 @@
         <!-- Work -->
         <section id="work">
           <Header>Work</Header>
+
+          <!-- List of work items -->
+          <div class="work-items-container">
+
+            <!-- Project 1 -->
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              class="work-item"
+            >
+              <div class="work-item-content">
+                <div class="work-item-header">
+                  <div>
+                    <p class="project-name">Project Name</p>
+                    <p class="project-role">Solo developer</p>
+                  </div>
+                  <div>
+                    <img
+                      src="../../assets/icons/external_link.svg"
+                      class="external-link-icon"
+                    />
+                  </div>
+                </div>
+                <div class="work-item-body">
+                  Lorem ipsum dolor sit amet phasellus 
+                  orci scelerisque tristique consectetur 
+                  sagittis condimentum duis quisque purus.
+                </div>
+                <div class="work-item-footer">
+                  <p class="project-tech">
+                    Wordpress&nbsp;&nbsp;&nbsp;ACF Pro&nbsp;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&nbsp;Bootstrap
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project 2 -->
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              class="work-item"
+            >
+              <div class="work-item-content">
+                <div class="work-item-header">
+                  <div>
+                    <p class="project-name">Project Name</p>
+                    <p class="project-role">Solo developer</p>
+                  </div>
+                  <div>
+                    <img
+                      src="../../assets/icons/external_link.svg"
+                      class="external-link-icon"
+                    />
+                  </div>
+                </div>
+                <div class="work-item-body">
+                  Lorem ipsum dolor sit amet phasellus 
+                  orci scelerisque tristique consectetur 
+                  sagittis condimentum duis quisque purus.
+                </div>
+                <div class="work-item-footer">
+                  <p class="project-tech">
+                    Wordpress&nbsp;&nbsp;&nbsp;ACF Pro&nbsp;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&nbsp;Bootstrap
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <!-- Project 3 -->
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              class="work-item"
+            >
+              <div class="work-item-content">
+                <div class="work-item-header">
+                  <div>
+                    <p class="project-name">Project Name</p>
+                    <p class="project-role">Solo developer</p>
+                  </div>
+                  <div>
+                    <img
+                      src="../../assets/icons/external_link.svg"
+                      class="external-link-icon"
+                    />
+                  </div>
+                </div>
+                <div class="work-item-body">
+                  Lorem ipsum dolor sit amet phasellus 
+                  orci scelerisque tristique consectetur 
+                  sagittis condimentum duis quisque purus.
+                </div>
+                <div class="work-item-footer">
+                  <p class="project-tech">
+                    Wordpress&nbsp;&nbsp;&nbsp;ACF Pro&nbsp;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&nbsp;Bootstrap
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
         </section>
 
         <!-- Contact -->

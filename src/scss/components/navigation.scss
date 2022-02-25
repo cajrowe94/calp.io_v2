@@ -1,5 +1,6 @@
 .navigation {
 	width: 100%;
+	z-index: 999;
 	height: $nav-height;
 
 	.navigation-spacer {
@@ -20,6 +21,14 @@
 			line-height: toRem(60);
 			font-weight: bold;
 			text-transform: lowercase;
+		}
+
+		#menu-button {
+			display: none;
+
+			@media #{$desktop-down} {
+				display: inline-block;
+			}
 		}
 	}
 }

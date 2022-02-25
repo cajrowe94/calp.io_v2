@@ -6,7 +6,7 @@
 				<div class="accordion-item-header">
 					<div>
 						<p class="title">
-							<span class="job-title">Frontend Developer</span>
+							<span class="job-title">Digital Developer</span>
 							<span class="at">&commat;</span>
 							<span class="company-name">HDMZ</span>
 						</p>
@@ -17,7 +17,7 @@
 					</div>
 				</div>
 				<div class="accordion-item-body">
-					<ul class="white">
+					<ul class="white white-marker">
 						<li>List item</li>
 						<li>List item</li>
 						<li>List item</li>
