@@ -6,7 +6,6 @@
 
 		.accordion-item {
 			background-color: transparent;
-			transition: background-size .5s;
 			padding: toRem(10) toRem(20);
 			border-radius: toRem(5);
 			cursor: pointer;
@@ -54,7 +53,7 @@
 			.accordion-item-body {
 				max-height: 0;
 				overflow: hidden;
-				// transition: max-height .5s ease-out;
+				transition: max-height .4s;
 				height: auto;
 			}
 		}
@@ -90,7 +89,7 @@
 
 		.accordion-item.active {
 			background-color: $primary-blue;
-			// box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+			box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
 			cursor: default;
 
 			.accordion-item-header {
@@ -116,12 +115,14 @@
 					img {
 						filter: $white-filter;
 						transform: rotate(180deg);
+						transition-delay: .4s;
 					}
 				}
 			}
 
 			.accordion-item-body {
 				max-height: toRem(300);
+				transition: max-height .4s .4s ease-out;
 			}
 		}
 	}

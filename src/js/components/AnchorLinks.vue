@@ -1,5 +1,9 @@
 <template>
-	<div class="full-screen-height center-content anchor-links-container">
+	<div class="full-screen-height anchor-links-container">
+		<!-- Tricksy way for me to get flex to do what I want -->
+		<div style="height: 130px;" class="d-none"></div>
+
+		<!-- Links -->
 		<ul class="anchor-links-ul p-0">
 			<li
 				v-for="link in links"
@@ -14,6 +18,33 @@
 				</a>
 			</li>
 		</ul>
+
+		<!-- Social links -->
+		<div class="social-links">
+			<!-- Github -->
+			<a
+				href="https://github.com/cajrowe94"
+				target="_blank"
+			>
+				<img src="../../assets/icons/github-icon.svg">
+			</a>
+
+			<!-- Linkedin -->
+			<a
+				href="https://www.linkedin.com/in/calebrowe94"
+				target="_blank"
+			>
+				<img src="../../assets/icons/linkedin-icon.svg">
+			</a>
+
+			<!-- Youtube -->
+			<a
+				href="https://www.youtube.com/channel/UCtU68pn8gpS72gOd_FGladg"
+				target="_blank"
+			>
+				<img src="../../assets/icons/youtube-icon.svg">
+			</a>
+		</div>
 	</div>
 </template>
 

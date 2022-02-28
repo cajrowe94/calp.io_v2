@@ -64,22 +64,22 @@
 
         <!-- Work -->
         <section id="work">
-          <Header>Work</Header>
+          <Header>Recent&nbsp;work</Header>
 
           <!-- List of work items -->
           <div class="work-items-container">
 
-            <!-- Project 1 -->
+            <!-- Tierra bio -->
             <a
-              href="https://www.google.com"
+              href="https://proteinplatform.tierrabiosciences.com/"
               target="_blank"
               class="work-item"
             >
               <div class="work-item-content">
                 <div class="work-item-header">
                   <div>
-                    <p class="project-name">Project Name</p>
-                    <p class="project-role">Solo developer</p>
+                    <p class="project-name">Tierrabio Protein Platform</p>
+                    <p class="project-role">Frontend developer</p>
                   </div>
                   <div>
                     <img
@@ -95,22 +95,22 @@
                 </div>
                 <div class="work-item-footer">
                   <p class="project-tech">
-                    Wordpress&nbsp;&nbsp;&nbsp;ACF Pro&nbsp;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&nbsp;Bootstrap
+                    Pimcore&nbsp;&nbsp;&nbsp;Twig&nbsp;&nbsp;&nbsp;Javascript&nbsp;&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;&nbsp;SCSS
                   </p>
                 </div>
               </div>
             </a>
 
-            <!-- Project 2 -->
+            <!-- Clovis -->
             <a
-              href="https://www.google.com"
+              href="https://targetedradiotherapy.com/"
               target="_blank"
               class="work-item"
             >
               <div class="work-item-content">
                 <div class="work-item-header">
                   <div>
-                    <p class="project-name">Project Name</p>
+                    <p class="project-name">Clovis Oncology</p>
                     <p class="project-role">Solo developer</p>
                   </div>
                   <div>
@@ -127,22 +127,22 @@
                 </div>
                 <div class="work-item-footer">
                   <p class="project-tech">
-                    Wordpress&nbsp;&nbsp;&nbsp;ACF Pro&nbsp;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&nbsp;Bootstrap
+                    Wordpress&nbsp;&nbsp;&nbsp;ACF&nbsp;&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;&nbsp;SCSS
                   </p>
                 </div>
               </div>
             </a>
 
-            <!-- Project 3 -->
+            <!-- Innoviva -->
             <a
-              href="https://www.google.com"
+              href="https://inva.com/"
               target="_blank"
               class="work-item"
             >
               <div class="work-item-content">
                 <div class="work-item-header">
                   <div>
-                    <p class="project-name">Project Name</p>
+                    <p class="project-name">Innoviva</p>
                     <p class="project-role">Solo developer</p>
                   </div>
                   <div>
@@ -159,12 +159,17 @@
                 </div>
                 <div class="work-item-footer">
                   <p class="project-tech">
-                    Wordpress&nbsp;&nbsp;&nbsp;ACF Pro&nbsp;&nbsp;&nbsp;jQuery&nbsp;&nbsp;&nbsp;Bootstrap
+                    Wordpress&nbsp;&nbsp;&nbsp;Exponent theme&nbsp;&nbsp;&nbsp;SCSS
                   </p>
                 </div>
               </div>
             </a>
           </div>
+
+          <!-- See everything -->
+          <!-- <div class="text-center mt-3">
+            <a href="/all-work">See everything else</a>
+          </div> -->
         </section>
 
         <!-- Contact -->
