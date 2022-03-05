@@ -1,12 +1,17 @@
 .navigation {
+	position: sticky;
+	top: 1px;
 	width: 100%;
-	z-index: 999;
+	z-index: 10;
 	height: $nav-height;
 
 	.navigation-spacer {
 		height: toRem(20);
 		background: $white;
 		border-bottom: toRem(5) solid $primary-blue;
+		position: relative;
+		z-index: 9;
+		top: -1px;
 	}
 
 	.content {
@@ -15,6 +20,8 @@
 		background: transparent;
 		align-items: center;
 		justify-content: space-between;
+		position: relative;
+		z-index: 9;
 
 		.navigation-logo {
 			font-size: toRem(60);
@@ -29,6 +36,41 @@
 			@media #{$desktop-down} {
 				display: inline-block;
 			}
+		}
+	}
+
+	/**
+	 * Mobile nav
+	 */
+	
+	.mobile-menu {
+		background-color: $primary-blue;
+		position: absolute;
+		display: flex;
+		justify-content: space-between;
+		top: toRem(-400);
+		right: 0;
+		transition: right 0.5s;
+		z-index: 8;
+		padding-top: toRem(150);
+		border-radius: 0px 0px toRem(5) toRem(5);
+		transition: top 0.5s;
+
+		.jump-links {
+			ul {
+				list-style-type: none;
+				padding: toRem(20);
+
+				a {
+					font-weight: bold;
+					color: $white;
+					font-size: toRem(32);
+				}
+			}
+		}
+
+		&.open {
+			top: toRem(20);
 		}
 	}
 }

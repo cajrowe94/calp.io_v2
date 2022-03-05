@@ -7,7 +7,7 @@
     <Layout class="layout-home">
       <!-- Left slot -->
       <template v-slot:layout_left>
-        <AnchorLinks :links="anchor_links" />
+        <Links :links="anchor_links" />
       </template>
 
       <!-- Center slot -->
@@ -49,7 +49,7 @@
                 Lorem ipsum dolem
               </p>
               <ul class="gray-marker">
-                <li>Javascript</li>
+                <li>JS</li>
                 <li>PHP</li>
               </ul>
             </div>
@@ -95,7 +95,11 @@
                 </div>
                 <div class="work-item-footer">
                   <p class="project-tech">
-                    Pimcore&nbsp;&nbsp;&nbsp;Twig&nbsp;&nbsp;&nbsp;Javascript&nbsp;&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;&nbsp;SCSS
+                    <span>Pimcore</span>
+                    <span>Twig</span>
+                    <span>JS</span>
+                    <span>Bootstrap</span>
+                    <span>SCSS</span>
                   </p>
                 </div>
               </div>
@@ -111,7 +115,7 @@
                 <div class="work-item-header">
                   <div>
                     <p class="project-name">Clovis Oncology</p>
-                    <p class="project-role">Solo developer</p>
+                    <p class="project-role">Lead developer</p>
                   </div>
                   <div>
                     <img
@@ -127,7 +131,11 @@
                 </div>
                 <div class="work-item-footer">
                   <p class="project-tech">
-                    Wordpress&nbsp;&nbsp;&nbsp;ACF&nbsp;&nbsp;&nbsp;Bootstrap&nbsp;&nbsp;&nbsp;SCSS
+                    <span>Wordpress</span>
+                    <span>ACF</span>
+                    <span>Bootstrap</span>
+                    <span>JS</span>
+                    <span>SCSS</span>
                   </p>
                 </div>
               </div>
@@ -143,7 +151,7 @@
                 <div class="work-item-header">
                   <div>
                     <p class="project-name">Innoviva</p>
-                    <p class="project-role">Solo developer</p>
+                    <p class="project-role">Lead developer</p>
                   </div>
                   <div>
                     <img
@@ -159,7 +167,10 @@
                 </div>
                 <div class="work-item-footer">
                   <p class="project-tech">
-                    Wordpress&nbsp;&nbsp;&nbsp;Exponent theme&nbsp;&nbsp;&nbsp;SCSS
+                    <span>Wordpress</span>
+                    <span>Exponent Theme</span>
+                    <span>JS</span>
+                    <span>SCSS</span>
                   </p>
                 </div>
               </div>
@@ -191,7 +202,7 @@
 <script>
   import Navigation from '../components/Navigation.vue';
   import Layout from '../components/Layout.vue';
-  import AnchorLinks from '../components/AnchorLinks.vue';
+  import Links from '../components/Links.vue';
   import Header from '../components/Header.vue';
   import ExperienceAccordion from '../components/ExperienceAccordion.vue';
 
@@ -200,7 +211,7 @@
     components: {
       Navigation,
       Layout,
-      AnchorLinks,
+      Links,
       Header,
       ExperienceAccordion
     },

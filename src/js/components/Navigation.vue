@@ -18,6 +18,21 @@
 				</span>
 			</button>
 		</div>
+
+		<!-- Mobile menu -->
+		<div :class="'mobile-menu' + (isActive ? ' open' : '')">
+			<div class="social-links">
+				
+			</div>
+			<div class="jump-links">
+				<ul>
+					<li><a @click="scroll_to" href="#about">About</a></li>
+					<li><a @click="scroll_to" href="#experience">Experience</a></li>
+					<li><a @click="scroll_to" href="#work">Work</a></li>
+					<li><a @click="scroll_to" href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
 	</nav>
 </template>
 
@@ -36,6 +51,25 @@
 			menuButton.addEventListener('click', function() {
 				self.isActive = !self.isActive;
 			});
+		},
+		methods: {
+			scroll_to(event) { // custom scrolling action
+				event.preventDefault();
+
+				// grab dat hash
+				let hash = (event.target && event.target.hash);
+				let element = (hash && document.getElementById(hash.substring(1)));
+
+				if (element) {
+					element.scrollIntoView({ // badass vanilla js function
+						behavior: 'smooth',
+						inline: 'center',
+						block: 'start'
+					});
+
+					this.isActive = false;
+				}
+			}
 		}
 	}
 </script>

@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Home from './js/views/Home.vue'
+import Home from './js/views/Home.vue';
 
 export default {
   name: 'App',
   components: {
-    Home
+    Home,
   }
 }
 </script>

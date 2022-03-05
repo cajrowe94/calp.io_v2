@@ -88,7 +88,6 @@
 		mounted() {
 			// add a click listener for each accordion item
 			var items = document.querySelectorAll('.accordion-item');
-			console.log(items);
 
 			items.forEach(item => {
 				item.addEventListener('click', () => {

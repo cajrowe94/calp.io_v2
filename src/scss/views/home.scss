@@ -127,6 +127,10 @@
 							font-size: toRem(14);
 							line-height: toRem(21);
 							margin: 0;
+
+							span {
+								margin-right: toRem(12);
+							}
 						}
 					}
 				}

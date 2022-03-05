@@ -50,7 +50,7 @@
 
 <script>
 	export default {
-		name: 'AnchorLinks',
+		name: 'Links',
 		props: {
 			links: Array,
 		},
