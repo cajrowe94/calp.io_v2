@@ -45,7 +45,7 @@
 					img {
 						filter: $dark-gray-filter;
 						transform: rotate(0deg);
-						transition: transform .3s ease-out;
+						// transition: transform .3s ease-out;
 					}
 				}
 			}
@@ -53,7 +53,7 @@
 			.accordion-item-body {
 				max-height: 0;
 				overflow: hidden;
-				transition: max-height .4s;
+				// transition: max-height .4s;
 				height: auto;
 			}
 		}
@@ -115,14 +115,14 @@
 					img {
 						filter: $white-filter;
 						transform: rotate(180deg);
-						transition-delay: .4s;
+						// transition-delay: .4s;
 					}
 				}
 			}
 
 			.accordion-item-body {
 				max-height: toRem(300);
-				transition: max-height .4s .4s ease-out;
+				// transition: max-height .4s .4s ease-out;
 			}
 		}
 	}

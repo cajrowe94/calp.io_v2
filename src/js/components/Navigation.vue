@@ -50,22 +50,26 @@
 
 			menuButton.addEventListener('click', function() {
 				self.isActive = !self.isActive;
+				document.querySelector('html').classList.toggle('no-scroll');
 			});
 		},
 		methods: {
 			scroll_to(event) { // custom scrolling action
 				event.preventDefault();
+				document.querySelector('html').classList.remove('no-scroll');
 
 				// grab dat hash
 				let hash = (event.target && event.target.hash);
 				let element = (hash && document.getElementById(hash.substring(1)));
 
 				if (element) {
-					element.scrollIntoView({ // badass vanilla js function
-						behavior: 'smooth',
-						inline: 'center',
-						block: 'start'
-					});
+					setTimeout(function() {
+						element.scrollIntoView({
+							behavior: 'smooth',
+							inline: 'center',
+							block: 'start'
+						});
+					}, 500);
 
 					this.isActive = false;
 				}
