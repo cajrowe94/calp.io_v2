@@ -6,14 +6,11 @@
 				<div class="accordion-item-header">
 					<div>
 						<p class="title">
-							<span class="job-title">Digital Developer</span>
+							<span class="job-title">Frontend Developer</span>
 							<span class="at">&commat;</span>
 							<span class="company-name">HDMZ</span>
 						</p>
 						<p class="dates">Feb 2021 - Present : Remote</p>
-					</div>
-					<div class="accordion-arrow">
-						<img src="../../assets/icons/accordion_arrow.svg">
 					</div>
 				</div>
 				<div class="accordion-item-body">
@@ -35,9 +32,6 @@
 						</p>
 						<p class="dates">Jan 2020 - Feb 2021 : Fishers, IN</p>
 					</div>
-					<div class="accordion-arrow">
-						<img src="../../assets/icons/accordion_arrow.svg">
-					</div>
 				</div>
 				<div class="accordion-item-body">
 					<ul class="white">
@@ -57,9 +51,6 @@
 							<span class="company-name">US Water Systems</span>
 						</p>
 						<p class="dates">April 2019 - Jan 2020 : Indianapolis, IN</p>
-					</div>
-					<div class="accordion-arrow">
-						<img src="../../assets/icons/accordion_arrow.svg">
 					</div>
 				</div>
 				<div class="accordion-item-body">

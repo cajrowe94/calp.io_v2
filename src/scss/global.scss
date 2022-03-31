@@ -4,10 +4,13 @@ body,
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	overflow-x: hidden;
 	min-height: 100%;
 	background: $white;
 	font-family: 'Poppins', sans-serif;
+
+	@media #{$desktop-down} {
+		overflow-x: hidden;
+	}
 }
 
 html.no-scroll {
