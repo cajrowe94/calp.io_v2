@@ -1,5 +1,5 @@
 <template>
-	<main class="layout">
+	<main :class="'layout' + (collapse_top ? ' collapse-top' : '')">
 		<!--- Layout Left Slot --->
 		<div
 			v-if="!hide_left_slot"
@@ -29,6 +29,7 @@
 		props: {
 			hide_left_slot: Boolean,
 			hide_right_slot: Boolean,
+			collapse_top: Boolean
 		}
 	}
 </script>

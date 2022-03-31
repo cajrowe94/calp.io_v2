@@ -4,7 +4,10 @@
     <Navigation />
 
     <!-- Main Layout -->
-    <Layout class="layout-home">
+    <Layout
+      class="layout-home"
+      :collapse_top="true"
+    >
       <!-- Left slot -->
       <template v-slot:layout_left>
         <Links :links="anchor_links" />
@@ -243,6 +246,26 @@
             href: '#contact'
           },
         ]
+      }
+    },
+    mounted() {
+      // add a scroll listener for the header containers
+      // we want to animate stuff in
+      let headerContainers = document.querySelectorAll('.header-container');
+
+      if (headerContainers.length) {
+        window.addEventListener('scroll', () => {
+          headerContainers.forEach((container) => {
+            let bottom = container.getBoundingClientRect().bottom;
+            
+            if (
+              bottom < window.innerHeight &&
+              !container.classList.contains('in-view')
+            ) {
+              container.classList.add('in-view');
+            }
+          });
+        });
       }
     }
   }

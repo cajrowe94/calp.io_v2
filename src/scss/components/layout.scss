@@ -23,6 +23,11 @@
 		min-width: 0;
 	}
 
+	&.collapse-top {
+		position: relative;
+		top: -$nav-height;
+	}
+
 	@media #{$desktop-down} {
 		.layout-left-slot,
 		.layout-right-slot {

@@ -6,14 +6,21 @@
 	h2 {
 		position: relative;
 		display: inline;
+		opacity: 0;
+
+		transition: all 1.3s;
+		transition-delay: 0.2s;
 	}
 
 	.header-hr {
-		width: 100%;
+		width: 0%;
 		height: 1px;
 		background-color: $light-gray;
 		background-position: center;
 		background-size: 100% 1px;
+
+		transition: all 0.8s;
+		transition-delay: 1s;
 	}
 
 	&.right {
@@ -21,6 +28,7 @@
 
 		h2 {
 			position: relative;
+			right: toRem(-10);
 			display: inline;
 			margin-left: toRem(25);
 		}
@@ -29,14 +37,49 @@
 	&.left {
 		h2 {
 			margin-right: toRem(25);
+			left: toRem(-10);
 		}
 	}
 
 	&.center {
 		justify-content: center;
 
+		h2 {
+			position: relative;
+			top: toRem(-10);
+		}
+
 		.header-hr {
 			display: none;
+		}
+	}
+
+	// animation active state
+	&.in-view {
+		.header-hr {
+			width: 100%;
+		}
+
+		h2 {
+			opacity: 1;
+		}
+
+		&.right {
+			h2 {
+				right: 0;
+			}
+		}
+
+		&.left {
+			h2 {
+				left: 0;
+			}
+		}
+
+		&.center {
+			h2 {
+				top: 0;
+			}
 		}
 	}
 }
