@@ -2,12 +2,12 @@
 	<nav id="nav" class="navigation">
 		<div class="navigation-spacer"></div>
 		<div class="content">
-			<a
-				href="/"
+			<router-link
+				to="/"
 				class="navigation-logo"
 			>
-			cr
-			</a>
+				cr
+			</router-link>
 			<button
 				id="menu-button"
 				:class="'hamburger hamburger--collapse ' + (isActive ? 'is-active' : '')"

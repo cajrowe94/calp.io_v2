@@ -182,7 +182,9 @@
 
             <!-- See everything -->
             <div class="text-center mt-3">
-              <a href="/all-work">See everything I've worked on</a>
+              <router-link to="/work">
+                See everything I've worked on
+              </router-link>
             </div>
           </div>
         </section>
