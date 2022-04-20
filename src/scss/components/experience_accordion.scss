@@ -20,6 +20,10 @@
 					font-weight: bold;
 					font-size: toRem(18);
 
+					@media #{$tablet-down} {
+						font-size: toRem(14);
+					}
+
 					.job-title {
 						color: $dark-gray;
 					}

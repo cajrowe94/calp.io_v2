@@ -66,17 +66,46 @@
 				list-style-type: none;
 				padding: toRem(20);
 
-				a {
-					font-weight: bold;
-					color: $white;
-					font-size: toRem(60);
-					line-height: toRem(60);
+				li {
+					position: relative;
+					left: -20px;
+					opacity: 0;
+					transition: opacity 1s, left 0.3s;
+
+					a {
+						font-weight: bold;
+						color: $white;
+						font-size: toRem(60);
+						line-height: toRem(60);
+					}
 				}
 			}
 		}
 
 		&.open {
 			left: toRem(-20);
+
+			.jump-links {
+				ul {
+					li {
+						opacity: 1;
+						left: 0;
+						transition-delay: 0.3s;
+					}
+
+					li:nth-of-type(2) {
+						transition-delay: .4s;
+					}
+
+					li:nth-of-type(3) {
+						transition-delay: 0.5s;
+					}
+
+					li:nth-of-type(4) {
+						transition-delay: 0.6s;
+					}
+				}
+			}
 		}
 	}
 }

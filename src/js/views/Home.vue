@@ -33,7 +33,7 @@
                   <div class="about-image">
                   <img
                     src="../../assets/images/profile_photo.jpeg"
-                    alt="Caleb Rowe"
+                    alt="Picture of Caleb Rowe"
                     width="200"
                     height="200"
                   >
