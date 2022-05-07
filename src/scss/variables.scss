@@ -39,3 +39,5 @@ $nav-height: toRem(120);
 $primary-blue-filter: invert(40%) sepia(91%) saturate(6709%) hue-rotate(224deg) brightness(96%) contrast(99%);
 $dark-gray-filter: invert(54%) sepia(26%) saturate(325%) hue-rotate(168deg) brightness(89%) contrast(91%);
 $white-filter: brightness(0) invert(1);
+$card-box-shadow: 0 1px 1px rgba(9,30,66,0.25), 0 0 1px 0 rgba(9,30,66,0.31);
+$card-box-shadow-hover: 0 8px 16px -4px rgba(9,30,66,0.25), 0 0 1px rgba(9,30,66,0.31);

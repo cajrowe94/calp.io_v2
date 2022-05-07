@@ -16,17 +16,28 @@
       <!-- Center slot -->
       <template v-slot:layout_center>
         <!-- Introduction -->
-        <div id="intro" class="full-screen-height center-content">
-          <p class="dark-gray m-0">Hey, my name is</p>
-          <h1>Caleb Rowe</h1>
-          <p class="dark-gray">
-            I'm a full stack web dev who enjoys building things for the internet.
-          </p>
+        <div
+          id="intro"
+          class="full-screen-height center-content"
+        >
+          <div
+            class="section-content"
+            data-theme="theme-light"
+          >
+            <p class="dark-gray m-0">Hey, my name is</p>
+            <h1>Caleb Rowe</h1>
+            <p class="dark-gray">
+              I'm a full stack web dev who enjoys building things for the internet.
+            </p>
+          </div>
         </div>
 
         <!-- About -->
         <section id="about">
-          <div class="section-content">
+          <div
+            class="section-content"
+            data-theme="theme-steel"
+          >
             <Header>About</Header>
             <div>
                 <div class="about-text">
@@ -61,7 +72,10 @@
 
         <!-- Experience -->
         <section id="experience">
-          <div class="section-content">
+          <div
+            class="section-content"
+            data-theme="theme-dark"
+          >
             <Header position="right">Experience</Header>
             <ExperienceAccordion />
           </div>
@@ -69,7 +83,10 @@
 
         <!-- Work -->
         <section id="work">
-          <div class="section-content">
+          <div
+            class="section-content"
+            data-theme="theme-steel"
+          >
             <Header>Recent&nbsp;work</Header>
 
             <!-- List of work items -->
@@ -194,7 +211,10 @@
 
         <!-- Contact -->
         <section id="contact">
-          <div class="section-content">
+          <div
+            class="section-content"
+            data-theme="theme-fun"
+          >
             <Header position="center">Contact</Header>
             <div class="text-center">
               <p>
@@ -249,20 +269,41 @@
       }
     },
     mounted() {
-      // add a scroll listener for the header containers
-      // we want to animate stuff in
-      let headerContainers = document.querySelectorAll('.header-container');
+      // add a scroll listener for the sections
+      // we want to animate stuff the headers and change themes
+      let sections = document.querySelectorAll('.section-content');
 
-      if (headerContainers.length) {
+      if (sections.length) {
+        var appWrapper = document.querySelector('#app');
+
         window.addEventListener('scroll', () => {
-          headerContainers.forEach((container) => {
-            let bottom = container.getBoundingClientRect().bottom;
-            
+          sections.forEach((section) => {
+            let sectionBottom = section.getBoundingClientRect().bottom;
+            let sectionTop = section.getBoundingClientRect().top;
+            let theme = section.dataset.theme;
+
+            let heading = section.querySelector('.header-container');
+
+            // animate the heading
             if (
-              bottom < window.innerHeight &&
-              !container.classList.contains('in-view')
+              heading &&
+              heading.getBoundingClientRect().bottom < window.innerHeight &&
+              !heading.classList.contains('in-view')
             ) {
-              container.classList.add('in-view');
+              heading.classList.add('in-view');
+            }
+
+            // change the theme
+            if (
+              sectionBottom < window.innerHeight &&
+              sectionBottom > 0 &&
+              sectionTop > 0 &&
+              sectionTop < window.innerHeight &&
+              theme &&
+              !appWrapper.classList.contains(theme)
+            ) {
+              appWrapper.removeAttribute('class');
+              appWrapper.classList.add(theme);
             }
           });
         });
