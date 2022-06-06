@@ -1,0 +1,11 @@
+.view.work {
+	.layout-work {
+		.layout-center-slot {
+			padding-top: toRem(200);
+
+			.work-header {
+				margin-bottom: toRem(50);
+			}
+		}
+	}
+}

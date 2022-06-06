@@ -53,6 +53,10 @@
 				transition: all .3s;
 				background: $white;
 
+				@media #{$phone-down} {
+					flex-grow: 1;
+				}
+
 				&:hover {
 					box-shadow: $card-box-shadow-hover;
 

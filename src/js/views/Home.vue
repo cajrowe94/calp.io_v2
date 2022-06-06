@@ -92,6 +92,44 @@
             <!-- List of work items -->
             <div class="work-items-container">
 
+              <!-- Nutcracker -->
+              <a
+                href="https://nutcrackerx.com/"
+                target="_blank"
+                class="work-item"
+              >
+                <div class="work-item-content">
+                  <div class="work-item-header">
+                    <div>
+                      <p class="project-name">Nutcracker</p>
+                      <p class="project-role">Lead developer</p>
+                    </div>
+                    <div>
+                      <img
+                        alt="External link icon"
+                        src="../../assets/icons/external_link.svg"
+                        class="external-link-icon"
+                        width="19"
+                        height="21"
+                      />
+                    </div>
+                  </div>
+                  <div class="work-item-body">
+                    Lorem ipsum dolor sit amet phasellus 
+                    orci scelerisque tristique consectetur 
+                    sagittis condimentum duis quisque purus.
+                  </div>
+                  <div class="work-item-footer">
+                    <p class="project-tech">
+                      <span>Wordpress</span>
+                      <span>ACF</span>
+                      <span>JS</span>
+                      <span>SCSS</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
               <!-- Tierra bio -->
               <a
                 href="https://proteinplatform.tierrabiosciences.com/"
@@ -106,8 +144,11 @@
                     </div>
                     <div>
                       <img
+                        alt="External link icon"
                         src="../../assets/icons/external_link.svg"
                         class="external-link-icon"
+                        width="19"
+                        height="21"
                       />
                     </div>
                   </div>
@@ -142,8 +183,11 @@
                     </div>
                     <div>
                       <img
+                        alt="External link icon"
                         src="../../assets/icons/external_link.svg"
                         class="external-link-icon"
+                        width="19"
+                        height="21"
                       />
                     </div>
                   </div>
@@ -157,41 +201,6 @@
                       <span>Wordpress</span>
                       <span>ACF</span>
                       <span>Bootstrap</span>
-                      <span>JS</span>
-                      <span>SCSS</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- Innoviva -->
-              <a
-                href="https://inva.com/"
-                target="_blank"
-                class="work-item"
-              >
-                <div class="work-item-content">
-                  <div class="work-item-header">
-                    <div>
-                      <p class="project-name">Innoviva</p>
-                      <p class="project-role">Lead developer</p>
-                    </div>
-                    <div>
-                      <img
-                        src="../../assets/icons/external_link.svg"
-                        class="external-link-icon"
-                      />
-                    </div>
-                  </div>
-                  <div class="work-item-body">
-                    Lorem ipsum dolor sit amet phasellus 
-                    orci scelerisque tristique consectetur 
-                    sagittis condimentum duis quisque purus.
-                  </div>
-                  <div class="work-item-footer">
-                    <p class="project-tech">
-                      <span>Wordpress</span>
-                      <span>Exponent Theme</span>
                       <span>JS</span>
                       <span>SCSS</span>
                     </p>
@@ -219,7 +228,6 @@
             <div class="text-center">
               <p>
                 Got somethin' you wanna say to me? Send me an email!
-                My inbox is always open. I'm not actually sure how to close it. ¯\_(ツ)_/¯
               </p>
               <a href="mailto:caleb@calp.io">caleb@calp.io</a>
             </div>
@@ -274,13 +282,13 @@
       let sections = document.querySelectorAll('.section-content');
 
       if (sections.length) {
-        var appWrapper = document.querySelector('#app');
+        // var appWrapper = document.querySelector('#app');
 
         window.addEventListener('scroll', () => {
           sections.forEach((section) => {
-            let sectionBottom = section.getBoundingClientRect().bottom;
-            let sectionTop = section.getBoundingClientRect().top;
-            let theme = section.dataset.theme;
+            // let sectionBottom = section.getBoundingClientRect().bottom;
+            // let sectionTop = section.getBoundingClientRect().top;
+            // let theme = section.dataset.theme;
 
             let heading = section.querySelector('.header-container');
 
@@ -294,6 +302,8 @@
             }
 
             // change the theme
+            // leaving this out for now, not sure if I like it
+            /*
             if (
               sectionBottom < window.innerHeight &&
               sectionBottom > 0 &&
@@ -305,6 +315,7 @@
               appWrapper.removeAttribute('class');
               appWrapper.classList.add(theme);
             }
+            */
           });
         });
       }
