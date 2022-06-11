@@ -1,3 +1,67 @@
 .work-table-container {
-	
+	overflow-x: scroll;
+	padding-bottom: toRem(100);
+
+	table {
+		width: 100%;
+		text-align: left;
+		border-collapse: collapse;
+		white-space: nowrap;
+
+		// header
+		thead {
+			th {
+				padding: 0 toRem(20) toRem(10) toRem(15);
+			}
+		}
+
+		// body
+		tbody {
+			tr {
+				border-top: 1px solid $light-gray;
+
+				td {
+					padding: toRem(15) 0 toRem(15) toRem(15);
+				}
+
+				// tech stack
+				.item-tech {
+					font-size: 15px;
+
+					&:not(:last-of-type) {
+						&:after {
+							content: '\A';
+							border-radius: 50%;
+							display: inline-block	;
+							width: toRem(5);
+							height: toRem(5);
+							background-color: $dark-gray;
+							margin: 0px toRem(5);
+							position: relative;
+							top: toRem(-2);
+						}
+					}
+				}
+
+				// project link
+				.project-link {
+					.external-link-icon {
+						filter: $primary-blue-filter;
+						position: relative;
+						left: -10px;
+						opacity: 0;
+						transition: all 0.3s;
+						top: 5px;
+					}
+
+					&:hover {
+						.external-link-icon {
+							opacity: 1;
+							left: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
 }

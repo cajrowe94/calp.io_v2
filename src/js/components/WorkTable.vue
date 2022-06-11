@@ -1,8 +1,8 @@
 <template>
 	<!-- Heading -->
 	<div class="work-header">
-		<h2>Work</h2>
-		<p>This is a complete list of projects that I've been involved with throughout my career.</p>
+		<h1>Work</h1>
+		<p>List of projects I've worked on</p>
 	</div>
 
 	<!-- Table -->
@@ -15,7 +15,7 @@
 					<th>Year</th>
 					<th>Where</th>
 					<th>Name</th>
-					<th>Tech used</th>
+					<th>Tech stack</th>
 				</tr>
 			</thead>
 
@@ -33,10 +33,42 @@
 					<td>{{ item.company }}</td>
 
 					<!-- Name -->
-					<td>{{ item.name }}</td>
+					<td>
+						<span
+							v-if="item.link"
+							class="project-link"
+						>
+							<a
+								:href="item.link"
+								target="_blank"
+							>
+								{{ item.name }}
+							</a>
+
+							<img
+                alt="External link icon"
+                src="../../assets/icons/external_link.svg"
+                class="external-link-icon"
+                width="19"
+                height="21"
+              />
+						</span>
+
+						<span v-else>
+							{{ item.name }}
+						</span>
+					</td>
 
 					<!-- Tech -->
-					<td>{{ item.tech }}</td>
+					<td>
+						<span
+							class="item-tech"
+							v-for="(tech, i) in item.tech"
+							:key="i"
+						>
+							{{ tech }}
+						</span>
+					</td>
 				</tr>
 			</tbody>
 		</table>

@@ -1,13 +1,10 @@
 <template>
   <div class="view work">
     <!-- Navigation -->
-    <Navigation />
+    <Navigation :hide_menu="true" />
 
     <!-- Layout -->
-    <Layout
-      class="layout-work"
-      :collapse_top="true"
-    >
+    <Layout class="layout-work">
       <!-- Left slot -->
       <template v-slot:layout_left>
         <Links />
@@ -39,6 +36,9 @@
       return {
         
       }
+    },
+    mounted() {
+      window.scrollTo(0, 0);
     }
   }
 </script>

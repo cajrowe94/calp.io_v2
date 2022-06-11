@@ -4,10 +4,7 @@
     <Navigation />
 
     <!-- Main Layout -->
-    <Layout
-      class="layout-home"
-      :collapse_top="true"
-    >
+    <Layout class="layout-home">
       <!-- Left slot -->
       <template v-slot:layout_left>
         <Links :links="anchor_links" />

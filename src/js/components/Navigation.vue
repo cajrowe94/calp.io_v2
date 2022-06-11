@@ -9,6 +9,7 @@
 				cr
 			</router-link>
 			<button
+				v-if="!hide_menu"
 				id="menu-button"
 				:class="'hamburger hamburger--collapse ' + (isActive ? 'is-active' : '')"
 				type="button"
@@ -20,7 +21,10 @@
 		</div>
 
 		<!-- Mobile menu -->
-		<div :class="'mobile-menu' + (isActive ? ' open' : '')">
+		<div
+			v-if="!hide_menu"
+			:class="'mobile-menu' + (isActive ? ' open' : '')"
+		>
 			<div class="social-links">
 				
 			</div>
@@ -39,6 +43,9 @@
 <script>
 	export default {
 		name: 'Navigation',
+		props: {
+			hide_menu: Boolean
+		},
 		data() {
 			return {
 				isActive: false,
