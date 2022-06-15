@@ -51,7 +51,7 @@ export default {
 		},
 		{
 			'year': '2020',
-			'name': 'myhELO Application',
+			'name': 'myhELO Web App',
 			'tech': ['PHP', 'JS', 'CSS'],
 			'company': 'myhELO'
 		},

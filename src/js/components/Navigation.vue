@@ -55,10 +55,12 @@
 			var self = this;
 			let menuButton = document.querySelector('#menu-button');
 
-			menuButton.addEventListener('click', function() {
-				self.isActive = !self.isActive;
-				document.querySelector('html').classList.toggle('no-scroll');
-			});
+			if (menuButton) {
+				menuButton.addEventListener('click', function() {
+					self.isActive = !self.isActive;
+					document.querySelector('html').classList.toggle('no-scroll');
+				});
+			}
 		},
 		methods: {
 			scroll_to(event) { // custom scrolling action
