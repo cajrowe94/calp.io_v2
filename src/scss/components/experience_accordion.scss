@@ -59,6 +59,12 @@
 				overflow: hidden;
 				// transition: max-height .4s;
 				height: auto;
+
+				ul {
+					li {
+						margin-bottom: toRem(15);
+					}
+				}
 			}
 		}
 

@@ -38,7 +38,6 @@
       }
     },
     mounted() {
-      console.log('mounted');
       window.scrollTo(0, 0);
     }
   }

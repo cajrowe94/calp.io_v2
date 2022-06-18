@@ -1,6 +1,7 @@
 <template>
 	<div class="accordion-container">
 		<div class="accordion-items">
+
 			<!-- HDMZ -->
 			<div class="accordion-item active">
 				<div class="accordion-item-header">
@@ -15,12 +16,22 @@
 				</div>
 				<div class="accordion-item-body">
 					<ul class="white white-marker">
-						<li>List item</li>
-						<li>List item</li>
-						<li>List item</li>
+						<li>
+							Build and maintain websites for various clients 
+							within the biotech industry.
+						</li>
+						<li>
+							Use modern frameworks, libraries, and content management systems such as 
+							Pimcore, Wordpress, Vue, Symfony, and Bootstrap.
+						</li>
+						<li>
+							Write cross browser and ADA compliant code that allows for ease of use across 
+							all users and devices.
+						</li>
 					</ul>
 				</div>
 			</div>
+
 			<!-- myhELO -->
 			<div class="accordion-item">
 				<div class="accordion-item-header">
@@ -35,12 +46,20 @@
 				</div>
 				<div class="accordion-item-body">
 					<ul class="white">
-						<li>List item</li>
-						<li>List item</li>
-						<li>List item</li>
+						<li>
+							Design and build new features for myhELO, a digital health record application.
+						</li>
+						<li>
+							Use a homebrewed, reactive JS framework to build performant frontend solutions 
+							for users.
+						</li>
+						<li>
+							Assist in API development using PHP.
+						</li>
 					</ul>
 				</div>
 			</div>
+
 			<!-- USWS -->
 			<div class="accordion-item">
 				<div class="accordion-item-header">
@@ -55,12 +74,13 @@
 				</div>
 				<div class="accordion-item-body">
 					<ul class="white">
-						<li>List item</li>
-						<li>List item</li>
-						<li>List item</li>
-						<li>List item</li>
-						<li>List item</li>
-						<li>List item</li>
+						<li>
+							Build new pages and update content for a small business eCommerce site.
+						</li>
+						<li>
+							Implement analytics and tracking solutions using Google Tag Manager 
+							and Google Analytics.
+						</li>
 					</ul>
 				</div>
 			</div>

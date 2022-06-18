@@ -47,20 +47,31 @@
                   >
                 </div>
                 <p>
-                  Lorem ipsum dolor sit amet fringilla mauris dapibus ultrices auctor gravida nullam 
-                  egestas suspendisse. Magna ac arcu auctor gravida nullam egestas suspendisse. Magna ac arcu auctor
-                  Lorem ipsum dolor sit amet fringilla mauris dapibus ultrices auctor gravida nullam egestas
-                  suspendisse.
+                  Hi! My name is Caleb and I'm a web dev based out of Indiana, USA. I currently 
+                  work at a <a href="https://hdmz.com" target="_blank">digital marketing agency</a> 
+                  as a frontend developer where I build and maintain sites for various companies 
+                  within the biotech industry.
                   <br>
                   <br>
-                  Magna ac arcu auctor gravida nullam egestas suspendisse. Magna ac arcu auctor
+                  I specialize in frontend development, but I love to tackle any task throughout 
+                  the stack. I've recently been working with <a href="https://symfony.com/" target="_blank">Symfony</a> 
+                  and learning API design and development with <a href="https://expressjs.com/" target="_blank">Express</a> 
+                  and <a href="https://nodejs.org/en/" target="_blank">Node</a>.
                   <br>
                   <br>
-                  Lorem ipsum dolem
+                  ADA compliance and Google's Core Web Vitals have recently become a major topic at work, so 
+                  learning to build accessible and performant websites is another ongoing study for me.
+                  <br>
+                  <br>
+                  Here's some more technologies I've been working with lately:
                 </p>
-                <ul class="gray-marker">
-                  <li>JS</li>
-                  <li>PHP</li>
+                <ul class="gray-marker tech-stack-list">
+                  <li>Vue</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                  <li>Gulp</li>
+                  <li>Docker</li>
+                  <li>Google Tag Manager</li>
                 </ul>
               </div>
             </div>
@@ -112,9 +123,9 @@
                     </div>
                   </div>
                   <div class="work-item-body">
-                    Lorem ipsum dolor sit amet phasellus 
-                    orci scelerisque tristique consectetur 
-                    sagittis condimentum duis quisque purus.
+                    Led the development of a new marketing communications site for 
+                    Nutcracker, an RNA-based therapeutics company, using a custom 
+                    built theme in Wordpress.
                   </div>
                   <div class="work-item-footer">
                     <p class="project-tech">
@@ -150,9 +161,8 @@
                     </div>
                   </div>
                   <div class="work-item-body">
-                    Lorem ipsum dolor sit amet phasellus 
-                    orci scelerisque tristique consectetur 
-                    sagittis condimentum duis quisque purus.
+                    Built the frontend of an eCommerce site for Tierrabio, a protein 
+                    synthesis platform, using Pimcore, Twig templating, and Bootstrap.
                   </div>
                   <div class="work-item-footer">
                     <p class="project-tech">
@@ -189,9 +199,8 @@
                     </div>
                   </div>
                   <div class="work-item-body">
-                    Lorem ipsum dolor sit amet phasellus 
-                    orci scelerisque tristique consectetur 
-                    sagittis condimentum duis quisque purus.
+                    Led the development of a micro-site built for Clovis Oncology, a 
+                    cancer research company, using a custom theme built in Wordpress.
                   </div>
                   <div class="work-item-footer">
                     <p class="project-tech">

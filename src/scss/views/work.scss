@@ -1,7 +1,13 @@
 .view.work {
+
+	.anchor-links-container {
+		position: sticky;
+		top: 1px;
+	}
+
 	.layout-work {
 		.layout-center-slot {
-			padding-top: toRem(200);
+			padding: toRem(200) 0px;
 
 			.work-header {
 				margin-bottom: toRem(50);

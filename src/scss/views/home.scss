@@ -29,6 +29,11 @@
 				filter: drop-shadow(10px 10px 0px rgba(148, 174, 244, 0.25));
 			}
 		}
+
+		.tech-stack-list {
+			columns: 2;
+			width: fit-content;
+		}
 	}
 
 	/**
