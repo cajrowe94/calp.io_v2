@@ -24,7 +24,7 @@
             <p class="dark-gray m-0">Hey, my name is</p>
             <h1>Caleb Rowe</h1>
             <p class="dark-gray">
-              I'm a full stack web dev who enjoys building things for the internet.
+              I'm a motivated web dev who enjoys building things for the internet.
             </p>
           </div>
         </div>
