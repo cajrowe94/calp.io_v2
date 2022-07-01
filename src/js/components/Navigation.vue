@@ -13,6 +13,7 @@
 				id="menu-button"
 				:class="'hamburger hamburger--collapse ' + (isActive ? 'is-active' : '')"
 				type="button"
+				name="Mobile menu toggle button"
 			>
 				<span class="hamburger-box">
 					<span class="hamburger-inner"></span>
