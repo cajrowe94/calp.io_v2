@@ -3,6 +3,8 @@
 		/**
 		 * Inactive item
 		 */
+		
+		$custom-gray: #5a748c;
 
 		.accordion-item {
 			background-color: transparent;
@@ -25,22 +27,22 @@
 					}
 
 					.job-title {
-						color: $dark-gray;
+						color: $custom-gray;
 					}
 
 					.at {
-						color: $dark-gray;
+						color: $custom-gray;
 						margin: 0 toRem(5);
 					}
 
 					.company-name {
-						color: $dark-gray;
+						color: $custom-gray;
 					}
 				}
 
 				.dates {
 					margin: 0;
-					color: $dark-gray;
+					color: $custom-gray;
 					font-size: toRem(12);
 					line-height: toRem(15);
 				}
@@ -49,7 +51,6 @@
 					img {
 						filter: $dark-gray-filter;
 						transform: rotate(0deg);
-						// transition: transform .3s ease-out;
 					}
 				}
 			}
@@ -57,7 +58,6 @@
 			.accordion-item-body {
 				max-height: 0;
 				overflow: hidden;
-				// transition: max-height .4s;
 				height: auto;
 				padding-left: toRem(10);
 
@@ -101,6 +101,8 @@
 		/**
 		 * Active item
 		 */
+		
+		$custom-white: #dde6ff;
 
 		.accordion-item.active {
 			background-color: $primary-blue;
@@ -114,30 +116,28 @@
 					}
 
 					.at {
-						color: $light-blue;
+						color: $custom-white;
 					}
 				}
 
 				.company-name {
-					color: $light-blue;
+					color: $custom-white;
 				}
 
 				.dates {
-					color: $light-blue;
+					color: $custom-white;
 				}
 
 				.accordion-arrow {
 					img {
 						filter: $white-filter;
 						transform: rotate(180deg);
-						// transition-delay: .4s;
 					}
 				}
 			}
 
 			.accordion-item-body {
 				max-height: fit-content;
-				// transition: max-height .4s .4s ease-out;
 			}
 		}
 	}
