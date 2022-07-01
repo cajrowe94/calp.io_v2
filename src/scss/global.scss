@@ -23,6 +23,12 @@ html.no-scroll {
 	}
 }
 
+body {
+	@media #{$desktop-down} {
+		position: relative;
+	}
+}
+
 h1 {
 	font-size: toRem(64);
 	line-height: toRem(64);
