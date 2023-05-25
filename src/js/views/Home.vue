@@ -232,7 +232,7 @@
             <Header position="center">Contact</Header>
             <div class="text-center">
               <p>
-                Need to chat? Send me an email!
+                Need to chat? Send me an email! 
               </p>
               <a href="mailto:caleb@calp.io">caleb@calp.io</a>
             </div>
