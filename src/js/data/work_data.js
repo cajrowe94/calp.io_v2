@@ -1,6 +1,20 @@
 export default {
 	'items': [
 		{
+			'year': '2023',
+			'name': 'Repligen',
+			'link': 'https://www.repligen.com/',
+			'tech': ['Pimcore', 'Stimulus JS', 'Webpack', 'Bootstrap', 'SCSS'],
+			'company': 'HDMZ'
+		},
+		{
+			'year': '2023',
+			'name': 'Delve Bio',
+			'link': 'https://delve.bio/',
+			'tech': ['Wordpress', 'ACF', 'PHP', 'JS', 'SCSS'],
+			'company': 'HDMZ'
+		},
+		{
 			'year': '2022',
 			'name': 'Nutcracker',
 			'link': 'https://www.nutcrackerx.com/',

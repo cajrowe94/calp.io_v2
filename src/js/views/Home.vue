@@ -24,7 +24,7 @@
             <p class="dark-gray m-0">Hey, my name is</p>
             <h1>Caleb Rowe</h1>
             <p class="dark-gray">
-              I'm a motivated web dev who enjoys building things for the internet.
+              I'm a software engineer who enjoys building things for the internet.
             </p>
           </div>
         </div>
@@ -47,19 +47,19 @@
                   >
                 </div>
                 <p>
-                  Hi! My name is Caleb and I'm a web dev based out of Indiana, USA. I currently 
+                  Hi! My name is Caleb and I'm a software engineer based out of Indiana, USA. I currently 
                   work at a <a href="https://hdmz.com" target="_blank">digital marketing agency</a> 
-                  as a frontend developer where I build and maintain sites for various companies 
+                  where I build and maintain sites for various companies 
                   within the biotech industry.
                   <br>
                   <br>
-                  I specialize in frontend development, but I love to tackle any task throughout 
+                  I specialize in frontend magic, but I love to tackle any task throughout 
                   the stack. I've recently been working with <a href="https://symfony.com/" target="_blank">Symfony</a> 
                   and learning API design and development with <a href="https://expressjs.com/" target="_blank">Express</a> 
                   and <a href="https://nodejs.org/en/" target="_blank">Node</a>.
                   <br>
                   <br>
-                  ADA compliance and Google's Core Web Vitals have recently become a major topic at work, so 
+                  ADA compliance and Google's Core Web Vitals have recently become a hot topic at work, so 
                   learning to build accessible and performant websites is another ongoing study for me.
                   <br>
                   <br>
@@ -100,6 +100,43 @@
             <!-- List of work items -->
             <div class="work-items-container">
 
+              <!-- Repligen -->
+              <a
+                href="https://repligen.com/"
+                target="_blank"
+                class="work-item"
+              >
+                <div class="work-item-content">
+                  <div class="work-item-header">
+                    <div>
+                      <p class="project-name">Repligen</p>
+                      <p class="project-role">Frontend Lead</p>
+                    </div>
+                    <div>
+                      <img
+                        alt="External link icon"
+                        src="../../assets/icons/external_link.svg"
+                        class="external-link-icon"
+                        width="19"
+                        height="21"
+                      />
+                    </div>
+                  </div>
+                  <div class="work-item-body">
+                    Led the frontend development of a large data-driven corporate
+                    site for Repligen, a leader in the bioprocessing life sciences industry.
+                  </div>
+                  <div class="work-item-footer">
+                    <p class="project-tech">
+                      <span>Pimcore</span>
+                      <span>StimulusJS</span>
+                      <span>Bootstrap</span>
+                      <span>SCSS</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
               <!-- Nutcracker -->
               <a
                 href="https://nutcrackerx.com/"
@@ -110,7 +147,7 @@
                   <div class="work-item-header">
                     <div>
                       <p class="project-name">Nutcracker</p>
-                      <p class="project-role">Lead developer</p>
+                      <p class="project-role">Technical Lead</p>
                     </div>
                     <div>
                       <img
@@ -148,7 +185,7 @@
                   <div class="work-item-header">
                     <div>
                       <p class="project-name">Tierrabio Protein Platform</p>
-                      <p class="project-role">Frontend developer</p>
+                      <p class="project-role">Frontend Lead</p>
                     </div>
                     <div>
                       <img
@@ -175,44 +212,6 @@
                   </div>
                 </div>
               </a>
-
-              <!-- Clovis -->
-              <a
-                href="https://targetedradiotherapy.com/"
-                target="_blank"
-                class="work-item"
-              >
-                <div class="work-item-content">
-                  <div class="work-item-header">
-                    <div>
-                      <p class="project-name">Clovis Oncology</p>
-                      <p class="project-role">Lead developer</p>
-                    </div>
-                    <div>
-                      <img
-                        alt="External link icon"
-                        src="../../assets/icons/external_link.svg"
-                        class="external-link-icon"
-                        width="19"
-                        height="21"
-                      />
-                    </div>
-                  </div>
-                  <div class="work-item-body">
-                    Led the development of a micro-site built for Clovis Oncology, a 
-                    cancer research company, using a custom theme built in Wordpress.
-                  </div>
-                  <div class="work-item-footer">
-                    <p class="project-tech">
-                      <span>Wordpress</span>
-                      <span>ACF</span>
-                      <span>Bootstrap</span>
-                      <span>JS</span>
-                      <span>SCSS</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
             </div>
 
             <!-- See everything -->
@@ -233,7 +232,7 @@
             <Header position="center">Contact</Header>
             <div class="text-center">
               <p>
-                Got somethin' you wanna say to me? Send me an email!
+                Need to chat? Send me an email!
               </p>
               <a href="mailto:caleb@calp.io">caleb@calp.io</a>
             </div>

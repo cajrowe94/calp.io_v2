@@ -7,7 +7,7 @@
 				<div class="accordion-item-header">
 					<div>
 						<p class="title">
-							<span class="job-title">Frontend Developer</span>
+							<span class="job-title">Frontend Engineer</span>
 							<span class="at">&commat;</span>
 							<span class="company-name">HDMZ</span>
 						</p>
@@ -37,7 +37,7 @@
 				<div class="accordion-item-header">
 					<div>
 						<p class="title">
-							<span class="job-title">Software Engineer</span>
+							<span class="job-title">Frontend Engineer</span>
 							<span class="at">&commat;</span>
 							<span class="company-name">myhELO</span>
 						</p>
@@ -92,9 +92,7 @@
 	export default {
 		name: 'ExperienceAccordion',
 		data() {
-			return {
-
-			}
+			return {}
 		},
 		mounted() {
 			// add a click listener for each accordion item

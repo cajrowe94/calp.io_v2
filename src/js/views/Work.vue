@@ -33,9 +33,7 @@
       WorkTable
     },
     data() {
-      return {
-        
-      }
+      return {}
     },
     mounted() {
       window.scrollTo(0, 0);
