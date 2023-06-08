@@ -48,7 +48,7 @@
 
 								<img
 									alt="External link icon"
-									src="../../assets/icons/external_link.svg"
+									src="../../assets/icons/arrow-up-right.svg"
 									class="external-link-icon"
 									width="19"
 									height="21"

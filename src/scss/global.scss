@@ -32,7 +32,7 @@ body {
 h1 {
 	font-size: toRem(64);
 	line-height: toRem(64);
-	color: $primary-blue;
+	color: $bright-green;
 	font-weight: bold;
 	margin: toRem(20) 0px;
 
@@ -45,7 +45,7 @@ h1 {
 h2 {
 	font-size: toRem(28);
 	line-height: toRem(28);
-	color: $primary-blue;
+	color: $bright-green;
 	font-weight: bold;
 	margin: toRem(20) 0px;
 
@@ -57,15 +57,16 @@ h2 {
 
 p {
 	margin: 0 0 toRem(10) 0;
+	color: $white;
 }
 
 a:not(.work-item) {
 	text-decoration: none;
-	color: $primary-blue;
+	color: $bright-green;
 	font-weight: bold;
 
 	&:visited {
-		color: $primary-blue;
+		color: $bright-green;
 	}
 
 	&:hover {
@@ -76,6 +77,7 @@ a:not(.work-item) {
 ul {
 	padding: 0 0 0 toRem(15);
 	list-style-type: circle;
+	color: $white;
 
 	li {
 		line-height: toRem(32);
@@ -88,12 +90,12 @@ ul {
 
 ::-moz-selection {
 	color: $white;
-	background: $primary-blue;
+	background: $bright-green;
 }
 
 ::selection {
 	color: $white;
-	background: $primary-blue;
+	background: $bright-green;
 }
 
 /**

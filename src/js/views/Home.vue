@@ -21,9 +21,9 @@
             class="section-content"
             data-theme="theme-light"
           >
-            <p class="dark-gray m-0">Hey, my name is</p>
+            <p class="m-0">Hey, my name is</p>
             <h1>Caleb Rowe</h1>
-            <p class="dark-gray">
+            <p>
               I'm a software engineer who enjoys building things for the internet.
             </p>
           </div>
@@ -115,7 +115,7 @@
                     <div>
                       <img
                         alt="External link icon"
-                        src="../../assets/icons/external_link.svg"
+                        src="../../assets/icons/arrow-up-right.svg"
                         class="external-link-icon"
                         width="19"
                         height="21"
@@ -152,7 +152,7 @@
                     <div>
                       <img
                         alt="External link icon"
-                        src="../../assets/icons/external_link.svg"
+                        src="../../assets/icons/arrow-up-right.svg"
                         class="external-link-icon"
                         width="19"
                         height="21"
@@ -190,7 +190,7 @@
                     <div>
                       <img
                         alt="External link icon"
-                        src="../../assets/icons/external_link.svg"
+                        src="../../assets/icons/arrow-up-right.svg"
                         class="external-link-icon"
                         width="19"
                         height="21"

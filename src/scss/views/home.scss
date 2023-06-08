@@ -26,7 +26,7 @@
 
 			img {
 				border-radius: 5px;
-				filter: drop-shadow(10px 10px 0px rgba(148, 174, 244, 0.25));
+				filter: drop-shadow(10px 10px 0px rgba(41, 224, 0, 0.25));
 			}
 		}
 
@@ -56,7 +56,7 @@
 				box-shadow: $card-box-shadow;
 				border-radius: toRem(5);
 				transition: all .3s;
-				background: $white;
+				background: $dark-200;
 
 				@media #{$phone-down} {
 					flex-grow: 1;
@@ -68,11 +68,11 @@
 					.work-item-content {
 						.work-item-header {
 							.project-name {
-								color: $primary-blue;
+								color: $bright-green;
 							}
 
 							.external-link-icon {
-								filter: $primary-blue-filter;
+								filter: $bright-green-filter;
 							}
 						}
 					}
@@ -91,14 +91,14 @@
 
 						.project-name {
 							font-weight: bold;
-							color: $black;
+							color: $white;
 							font-size: toRem(16);
 							line-height: toRem(24);
 							margin: 0;
 						}
 
 						.project-role {
-							color: $dark-gray;
+							color: $white;
 							font-size: toRem(14);
 							line-height: toRem(21);
 							margin: 0;
@@ -115,6 +115,7 @@
 					
 					.work-item-body {
 						margin: toRem(15) 0;
+						color: #b9b9b9;
 					}
 
 					/**
@@ -123,7 +124,7 @@
 					
 					.work-item-footer {
 						.project-tech {
-							color: $dark-gray;
+							color: #b5e5a6;
 							font-size: toRem(14);
 							line-height: toRem(21);
 							margin: 0;

@@ -1,6 +1,7 @@
 .work-table-container {
 	overflow-x: scroll;
 	padding-bottom: toRem(100);
+	color: $white;
 
 	table {
 		width: 100%;
@@ -18,7 +19,7 @@
 		// body
 		tbody {
 			tr {
-				border-top: 1px solid $light-gray;
+				border-top: 1px solid $dark-200;
 
 				td {
 					padding: toRem(15) 0 toRem(15) toRem(15);
