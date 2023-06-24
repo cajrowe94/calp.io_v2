@@ -53,7 +53,7 @@
                   within the biotech industry.
                   <br>
                   <br>
-                  I specialize in frontend magic, but I love to tackle any task throughout 
+                  I specialize in frontend development, but I love to tackle any task throughout 
                   the stack. I've recently been working with <a href="https://symfony.com/" target="_blank">Symfony</a> 
                   and learning API design and development with <a href="https://expressjs.com/" target="_blank">Express</a> 
                   and <a href="https://nodejs.org/en/" target="_blank">Node</a>.
@@ -113,13 +113,10 @@
                       <p class="project-role">Frontend Lead</p>
                     </div>
                     <div>
-                      <img
-                        alt="External link icon"
-                        src="../../assets/icons/arrow-up-right.svg"
-                        class="external-link-icon"
-                        width="19"
-                        height="21"
-                      />
+                      <svg class="external-link-icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#29e000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 15.25V6.75H8.75"/>
+                        <path stroke="#29e000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 7L6.75 17.25"/>
+                      </svg>
                     </div>
                   </div>
                   <div class="work-item-body">
@@ -150,13 +147,10 @@
                       <p class="project-role">Technical Lead</p>
                     </div>
                     <div>
-                      <img
-                        alt="External link icon"
-                        src="../../assets/icons/arrow-up-right.svg"
-                        class="external-link-icon"
-                        width="19"
-                        height="21"
-                      />
+                      <svg class="external-link-icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#29e000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 15.25V6.75H8.75"/>
+                        <path stroke="#29e000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 7L6.75 17.25"/>
+                      </svg>
                     </div>
                   </div>
                   <div class="work-item-body">
@@ -188,13 +182,10 @@
                       <p class="project-role">Frontend Lead</p>
                     </div>
                     <div>
-                      <img
-                        alt="External link icon"
-                        src="../../assets/icons/arrow-up-right.svg"
-                        class="external-link-icon"
-                        width="19"
-                        height="21"
-                      />
+                      <svg class="external-link-icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#29e000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 15.25V6.75H8.75"/>
+                        <path stroke="#29e000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 7L6.75 17.25"/>
+                      </svg>
                     </div>
                   </div>
                   <div class="work-item-body">

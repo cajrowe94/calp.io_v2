@@ -46,13 +46,10 @@
 									{{ item.name }}
 								</a>
 
-								<img
-									alt="External link icon"
-									src="../../assets/icons/arrow-up-right.svg"
-									class="external-link-icon"
-									width="19"
-									height="21"
-								/>
+								<svg class="external-link-icon" width="19" height="21" fill="none" viewBox="0 0 24 24">
+									<path stroke="#29e000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 15.25V6.75H8.75"/>
+									<path stroke="#29e000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 7L6.75 17.25"/>
+								</svg>
 							</span>
 
 							<span v-else>
