@@ -1,6 +1,20 @@
 export default {
 	'items': [
 		{
+			'year': '2024',
+			'name': 'Gilead Research Scholars',
+			'link': 'https://researchscholars.gilead.com/',
+			'tech': ['Pimcore', 'Stimulus JS', 'Twig', 'Mapbox'],
+			'company': 'HDMZ'
+		},
+		{
+			'year': '2024',
+			'name': 'HDMZ',
+			'link': 'https://www.hdmz.com/',
+			'tech': ['Drupal', 'Twig', 'Paragraphs Module', 'Webform Module'],
+			'company': 'HDMZ'
+		},
+		{
 			'year': '2023',
 			'name': 'Repligen',
 			'link': 'https://www.repligen.com/',

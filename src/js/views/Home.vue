@@ -53,7 +53,7 @@
                   within the biotech industry.
                   <br>
                   <br>
-                  I specialize in frontend magic, but I love to tackle any task throughout 
+                  I specialize in frontend development, but I love to tackle any task throughout 
                   the stack. I've recently been working with <a href="https://symfony.com/" target="_blank">Symfony</a> 
                   and learning API design and development with <a href="https://expressjs.com/" target="_blank">Express</a> 
                   and <a href="https://nodejs.org/en/" target="_blank">Node</a>.
@@ -68,10 +68,10 @@
                 <ul class="gray-marker tech-stack-list">
                   <li>Vue</li>
                   <li>React</li>
+                  <li>Stimulus JS</li>
+                  <li>Webpack</li>
+                  <li>Mapbox</li>
                   <li>Bootstrap</li>
-                  <li>Gulp</li>
-                  <li>Docker</li>
-                  <li>Google Tag Manager</li>
                 </ul>
               </div>
             </div>
@@ -100,6 +100,80 @@
             <!-- List of work items -->
             <div class="work-items-container">
 
+              <!-- GRS -->
+              <a
+                href="https://researchscholars.gilead.com/"
+                target="_blank"
+                class="work-item"
+              >
+                <div class="work-item-content">
+                  <div class="work-item-header">
+                    <div>
+                      <p class="project-name">Gilead Research Scholars</p>
+                      <p class="project-role">Frontend Lead</p>
+                    </div>
+                    <div>
+                      <img
+                        alt="External link icon"
+                        src="../../assets/icons/external_link.svg"
+                        class="external-link-icon"
+                        width="19"
+                        height="21"
+                      />
+                    </div>
+                  </div>
+                  <div class="work-item-body">
+                    Frontend development lead for a complete rebuild of Gilead's 
+                    therapeutic research marketing website.
+                  </div>
+                  <div class="work-item-footer">
+                    <p class="project-tech">
+                      <span>Pimcore</span>
+                      <span>StimulusJS</span>
+                      <span>Mapbox</span>
+                      <span>Twig</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <!-- HDMZ -->
+              <a
+                href="https://www.hdmz.com/"
+                target="_blank"
+                class="work-item"
+              >
+                <div class="work-item-content">
+                  <div class="work-item-header">
+                    <div>
+                      <p class="project-name">HDMZ</p>
+                      <p class="project-role">Technical Lead</p>
+                    </div>
+                    <div>
+                      <img
+                        alt="External link icon"
+                        src="../../assets/icons/external_link.svg"
+                        class="external-link-icon"
+                        width="19"
+                        height="21"
+                      />
+                    </div>
+                  </div>
+                  <div class="work-item-body">
+                    Technical lead for a migration of HDMZ's
+                    corporate website to Drupal.
+                  </div>
+                  <div class="work-item-footer">
+                    <p class="project-tech">
+                      <span>Drupal</span>
+                      <span>Twig</span>
+                      <span>Paragraphs module</span>
+                      <span>Webform module</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
+
               <!-- Repligen -->
               <a
                 href="https://repligen.com/"
@@ -123,89 +197,13 @@
                     </div>
                   </div>
                   <div class="work-item-body">
-                    Led the frontend development of a large data-driven corporate
+                    Frontend development lead for a large data-driven corporate
                     site for Repligen, a leader in the bioprocessing life sciences industry.
                   </div>
                   <div class="work-item-footer">
                     <p class="project-tech">
                       <span>Pimcore</span>
                       <span>StimulusJS</span>
-                      <span>Bootstrap</span>
-                      <span>SCSS</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- Nutcracker -->
-              <a
-                href="https://nutcrackerx.com/"
-                target="_blank"
-                class="work-item"
-              >
-                <div class="work-item-content">
-                  <div class="work-item-header">
-                    <div>
-                      <p class="project-name">Nutcracker</p>
-                      <p class="project-role">Technical Lead</p>
-                    </div>
-                    <div>
-                      <img
-                        alt="External link icon"
-                        src="../../assets/icons/external_link.svg"
-                        class="external-link-icon"
-                        width="19"
-                        height="21"
-                      />
-                    </div>
-                  </div>
-                  <div class="work-item-body">
-                    Led the development of a new marketing communications site for 
-                    Nutcracker, an RNA-based therapeutics company, using a custom 
-                    built theme in Wordpress.
-                  </div>
-                  <div class="work-item-footer">
-                    <p class="project-tech">
-                      <span>Wordpress</span>
-                      <span>ACF</span>
-                      <span>JS</span>
-                      <span>SCSS</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- Tierra bio -->
-              <a
-                href="https://proteinplatform.tierrabiosciences.com/"
-                target="_blank"
-                class="work-item"
-              >
-                <div class="work-item-content">
-                  <div class="work-item-header">
-                    <div>
-                      <p class="project-name">Tierrabio Protein Platform</p>
-                      <p class="project-role">Frontend Lead</p>
-                    </div>
-                    <div>
-                      <img
-                        alt="External link icon"
-                        src="../../assets/icons/external_link.svg"
-                        class="external-link-icon"
-                        width="19"
-                        height="21"
-                      />
-                    </div>
-                  </div>
-                  <div class="work-item-body">
-                    Built the frontend of an eCommerce site for Tierrabio, a protein 
-                    synthesis platform, using Pimcore, Twig templating, and Bootstrap.
-                  </div>
-                  <div class="work-item-footer">
-                    <p class="project-tech">
-                      <span>Pimcore</span>
-                      <span>Twig</span>
-                      <span>JS</span>
                       <span>Bootstrap</span>
                       <span>SCSS</span>
                     </p>
