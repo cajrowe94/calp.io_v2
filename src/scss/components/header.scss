@@ -1,7 +1,7 @@
 .header-container {
 	display: flex;
 	align-items: center;
-	margin: toRem(15) 0;
+	margin: rem(15) 0;
 
 	h2 {
 		position: relative;
@@ -28,16 +28,16 @@
 
 		h2 {
 			position: relative;
-			right: toRem(-10);
+			right: rem(-10);
 			display: inline;
-			margin-left: toRem(25);
+			margin-left: rem(25);
 		}
 	}
 
 	&.left {
 		h2 {
-			margin-right: toRem(25);
-			left: toRem(-10);
+			margin-right: rem(25);
+			left: rem(-10);
 		}
 	}
 
@@ -46,7 +46,7 @@
 
 		h2 {
 			position: relative;
-			top: toRem(-10);
+			top: rem(-10);
 		}
 
 		.header-hr {

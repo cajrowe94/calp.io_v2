@@ -8,8 +8,8 @@
 
 		.accordion-item {
 			background-color: transparent;
-			padding: toRem(10) toRem(20);
-			border-radius: toRem(5);
+			padding: rem(10) rem(20);
+			border-radius: rem(5);
 			cursor: pointer;
 
 			.accordion-item-header {
@@ -20,10 +20,10 @@
 				.title {
 					margin: 0;
 					font-weight: bold;
-					font-size: toRem(18);
+					font-size: rem(18);
 
 					@media #{$tablet-down} {
-						font-size: toRem(14);
+						font-size: rem(14);
 					}
 
 					.job-title {
@@ -32,7 +32,7 @@
 
 					.at {
 						color: $custom-gray;
-						margin: 0 toRem(5);
+						margin: 0 rem(5);
 					}
 
 					.company-name {
@@ -43,8 +43,8 @@
 				.dates {
 					margin: 0;
 					color: $custom-gray;
-					font-size: toRem(12);
-					line-height: toRem(15);
+					font-size: rem(12);
+					line-height: rem(15);
 				}
 
 				.accordion-arrow {
@@ -59,14 +59,14 @@
 				max-height: 0;
 				overflow: hidden;
 				height: auto;
-				padding-left: toRem(10);
+				padding-left: rem(10);
 
 				ul {
 					li {
-						margin-bottom: toRem(15);
+						margin-bottom: rem(15);
 
 						@media #{$tablet-down} {
-							font-size: toRem(14);
+							font-size: rem(14);
 						}
 					}
 				}

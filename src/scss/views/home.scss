@@ -22,7 +22,7 @@
 	#about {
 		.about-image {
 			float: right;
-			padding: 0px toRem(15) toRem(15) toRem(15);
+			padding: 0px rem(15) rem(15) rem(15);
 
 			img {
 				border-radius: 5px;
@@ -36,7 +36,7 @@
 			width: fit-content;
 
 			li {
-				min-width: toRem(150);
+				min-width: rem(150);
 			}
 		}
 	}
@@ -50,16 +50,16 @@
 			display: flex;
 			justify-content: space-evenly;
 			flex-wrap: wrap;
-			margin: toRem(-10) 0 0 0;
+			margin: rem(-10) 0 0 0;
 
 			.work-item {
-				margin-top: toRem(10);
+				margin-top: rem(10);
 				text-decoration: none;
-				flex: 0 1 toRem(365);
+				flex: 0 1 rem(365);
 				cursor: pointer;
 				color: unset;
 				box-shadow: $card-box-shadow;
-				border-radius: toRem(5);
+				border-radius: rem(5);
 				transition: all .3s;
 				background: $white;
 
@@ -84,7 +84,7 @@
 				}
 
 				.work-item-content {
-					padding: toRem(15);
+					padding: rem(15);
 
 					/**
 					 * Header
@@ -97,15 +97,15 @@
 						.project-name {
 							font-weight: bold;
 							color: $black;
-							font-size: toRem(16);
-							line-height: toRem(24);
+							font-size: rem(16);
+							line-height: rem(24);
 							margin: 0;
 						}
 
 						.project-role {
 							color: $dark-gray;
-							font-size: toRem(14);
-							line-height: toRem(21);
+							font-size: rem(14);
+							line-height: rem(21);
 							margin: 0;
 						}
 
@@ -119,7 +119,7 @@
 					 */
 					
 					.work-item-body {
-						margin: toRem(15) 0;
+						margin: rem(15) 0;
 					}
 
 					/**
@@ -129,12 +129,12 @@
 					.work-item-footer {
 						.project-tech {
 							color: $dark-gray;
-							font-size: toRem(14);
-							line-height: toRem(21);
+							font-size: rem(14);
+							line-height: rem(21);
 							margin: 0;
 
 							span {
-								margin-right: toRem(12);
+								margin-right: rem(12);
 							}
 						}
 					}
@@ -148,8 +148,8 @@
 	 */
 	#contact {
 		p {
-			max-width: toRem(600);
-			margin: 0 auto toRem(35) auto;
+			max-width: rem(600);
+			margin: 0 auto rem(35) auto;
 		}
 	}
 }

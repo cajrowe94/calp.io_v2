@@ -28,13 +28,13 @@
 						class="work-item-row"
 					>
 						<!-- Year -->
-						<td>{{ item.year }}</td>
+						<td class="work-item-row__year">{{ item.year }}</td>
 
 						<!-- Company -->
-						<td>{{ item.company }}</td>
+						<td class="work-item-row__company">{{ item.company }}</td>
 
 						<!-- Name -->
-						<td>
+						<td class="work-item-row__name">
 							<span
 								v-if="item.link"
 								class="project-link"
@@ -61,7 +61,7 @@
 						</td>
 
 						<!-- Tech -->
-						<td>
+						<td class="work-item-row__tech">
 							<span
 								class="item-tech"
 								v-for="(tech, i) in item.tech"

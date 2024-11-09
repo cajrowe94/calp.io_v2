@@ -5,14 +5,14 @@
 
 	.anchor-links-ul {
 		list-style: none;
-		line-height: toRem(24);
+		line-height: rem(24);
 
 		.anchor-link {
 			overflow: hidden;
 
 			a {
 				color: #667788;
-				font-size: toRem(24);
+				font-size: rem(24);
 				position: relative;
 				left: 0;
 				transition: left .2s ease-out;
@@ -36,7 +36,7 @@
 	.social-links {
 		display: flex;
 		flex-direction: column;
-		padding-bottom: toRem(20);
+		padding-bottom: rem(20);
 
 		a {
 			width: fit-content;

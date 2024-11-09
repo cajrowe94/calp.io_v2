@@ -1,17 +1,26 @@
-.work-table-container {
-	overflow-x: scroll;
-	padding-bottom: toRem(100);
+@import "../variables.scss";
 
-	table {
+.work-table-container {
+	overflow-x: auto;
+	padding-bottom: rem(100);
+
+	@media #{$tablet-down} {
+		padding-bottom: rem(50);
+	}
+
+	table.work-table {
 		width: 100%;
 		text-align: left;
 		border-collapse: collapse;
-		white-space: nowrap;
+		
+		@media #{$tablet-down} {
+			white-space: nowrap;
+		}
 
 		// header
 		thead {
 			th {
-				padding: 0 toRem(20) toRem(10) toRem(15);
+				padding: 0 rem(20) rem(10) rem(15);
 			}
 		}
 
@@ -21,7 +30,11 @@
 				border-top: 1px solid $light-gray;
 
 				td {
-					padding: toRem(15) 0 toRem(15) toRem(15);
+					padding: rem(15) 0 rem(15) rem(15);
+
+					&.work-item-row__name {
+						white-space: nowrap;
+					}
 				}
 
 				// tech stack
@@ -33,12 +46,12 @@
 							content: '\A';
 							border-radius: 50%;
 							display: inline-block	;
-							width: toRem(5);
-							height: toRem(5);
+							width: rem(5);
+							height: rem(5);
 							background-color: $dark-gray;
-							margin: 0px toRem(5);
+							margin: 0px rem(5);
 							position: relative;
-							top: toRem(-2);
+							top: rem(-2);
 						}
 					}
 				}
