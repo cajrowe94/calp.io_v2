@@ -7,7 +7,7 @@
 				<div class="accordion-item-header">
 					<div>
 						<p class="title">
-							<span class="job-title">Frontend Engineer</span>
+							<span class="job-title">Senior Frontend Engineer</span>
 							<span class="at">&commat;</span>
 							<span class="company-name">HDMZ</span>
 						</p>
@@ -22,7 +22,7 @@
 						</li>
 						<li>
 							Use modern frameworks, libraries, and content management systems such as 
-							Pimcore, Wordpress, Vue, Symfony, and Bootstrap.
+							Pimcore, Nuxt, Wordpress, Symfony, and Bootstrap.
 						</li>
 						<li>
 							Write cross browser and ADA compliant code that allows for ease of use across 

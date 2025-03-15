@@ -66,7 +66,7 @@
                   Here's some more technologies I've been working with lately:
                 </p>
                 <ul class="gray-marker tech-stack-list">
-                  <li>Vue</li>
+                  <li>Nuxt</li>
                   <li>React</li>
                   <li>Stimulus JS</li>
                   <li>Webpack</li>
@@ -99,6 +99,40 @@
 
             <!-- List of work items -->
             <div class="work-items-container">
+              <!-- MyOme -->
+              <a
+                href="https://www.myome.com/"
+                target="_blank"
+                class="work-item"
+              >
+                <div class="work-item-content">
+                  <div class="work-item-header">
+                    <div>
+                      <p class="project-name">MyOme</p>
+                      <p class="project-role">Technical Lead</p>
+                    </div>
+                    <div>
+                      <img
+                        alt="External link icon"
+                        src="../../assets/icons/external_link.svg"
+                        class="external-link-icon"
+                        width="19"
+                        height="21"
+                      />
+                    </div>
+                  </div>
+                  <div class="work-item-body">
+                    Technical lead on a site rebuild for a bioinformatics company.
+                  </div>
+                  <div class="work-item-footer">
+                    <p class="project-tech">
+                      <span>Nuxt</span>
+                      <span>SCSS</span>
+                      <span>Vercel</span>
+                    </p>
+                  </div>
+                </div>
+              </a>
 
               <!-- GRS -->
               <a
@@ -169,43 +203,6 @@
                       <span>Twig</span>
                       <span>Paragraphs module</span>
                       <span>Webform module</span>
-                    </p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- Repligen -->
-              <a
-                href="https://repligen.com/"
-                target="_blank"
-                class="work-item"
-              >
-                <div class="work-item-content">
-                  <div class="work-item-header">
-                    <div>
-                      <p class="project-name">Repligen</p>
-                      <p class="project-role">Frontend Lead</p>
-                    </div>
-                    <div>
-                      <img
-                        alt="External link icon"
-                        src="../../assets/icons/external_link.svg"
-                        class="external-link-icon"
-                        width="19"
-                        height="21"
-                      />
-                    </div>
-                  </div>
-                  <div class="work-item-body">
-                    Frontend development lead for a large data-driven corporate
-                    site for Repligen, a leader in the bioprocessing life sciences industry.
-                  </div>
-                  <div class="work-item-footer">
-                    <p class="project-tech">
-                      <span>Pimcore</span>
-                      <span>StimulusJS</span>
-                      <span>Bootstrap</span>
-                      <span>SCSS</span>
                     </p>
                   </div>
                 </div>

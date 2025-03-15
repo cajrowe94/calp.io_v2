@@ -1,10 +1,24 @@
 export default {
 	'items': [
 		{
+			'year': '2025',
+			'name': 'MyOme',
+			'link': 'https://myome.com/',
+			'tech': ['Nuxt', 'SCSS', 'Vercel'],
+			'company': 'HDMZ'
+		},
+		{
 			'year': '2024',
 			'name': 'Gilead Research Scholars',
 			'link': 'https://researchscholars.gilead.com/',
 			'tech': ['Pimcore', 'Stimulus JS', 'Twig', 'Mapbox'],
+			'company': 'HDMZ'
+		},
+		{
+			'year': '2024',
+			'name': 'Delve Bio',
+			'link': 'https://delve.bio/',
+			'tech': ['Wordpress', 'ACF', 'PHP', 'JS', 'SCSS'],
 			'company': 'HDMZ'
 		},
 		{
@@ -19,13 +33,6 @@ export default {
 			'name': 'Repligen',
 			'link': 'https://www.repligen.com/',
 			'tech': ['Pimcore', 'Stimulus JS', 'Webpack', 'Bootstrap', 'SCSS'],
-			'company': 'HDMZ'
-		},
-		{
-			'year': '2023',
-			'name': 'Delve Bio',
-			'link': 'https://delve.bio/',
-			'tech': ['Wordpress', 'ACF', 'PHP', 'JS', 'SCSS'],
 			'company': 'HDMZ'
 		},
 		{
